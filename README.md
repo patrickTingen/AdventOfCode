@@ -9,7 +9,4 @@ All written in Progress ABL
 	learning to code. Each puzzle calls upon different skills and has two parts 
 	that build on a theme.
 
-	Check:
-	http://adventofcode.com/2015
-	http://adventofcode.com/2016
-	http://adventofcode.com/2017
+	Check http://adventofcode.com/
