@@ -2,3 +2,4 @@
 .project
 .propath
 */.settings/
+*.pref
