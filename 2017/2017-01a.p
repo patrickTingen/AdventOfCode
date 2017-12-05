@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------------
     File        : 2017-01a.p
-    Purpose     : Day 1 of AoC
+    Purpose     : Day 1 of AoC 2017
 
-    4-12/2017 Patrick Tingen
+    4-12-2017 Patrick Tingen
   ----------------------------------------------------------------------*/
 
 DEFINE VARIABLE cInput AS LONGCHAR NO-UNDO.
@@ -22,3 +22,12 @@ DO i = 1 TO LENGTH(cInput):
 END.
 
 MESSAGE iSum VIEW-AS ALERT-BOX INFORMATION.
+
+
+/*---------------------------                 */
+/*Information (Press HELP to view stack trace)*/
+/*---------------------------                 */
+/*1044                                        */
+/*---------------------------                 */
+/*OK   Help                                   */
+/*---------------------------                 */

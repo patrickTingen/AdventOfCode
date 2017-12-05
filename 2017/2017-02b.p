@@ -1,10 +1,9 @@
 /*------------------------------------------------------------------------
-    File        : 2017-01a.p
-    Purpose     : Day 2 of AoC
+    File        : 2017-02b.p
+    Purpose     : Day 2 of AoC 2017
 
     5-12-2017 Patrick Tingen
   ----------------------------------------------------------------------*/
-
 
 DEFINE VARIABLE iInput AS INTEGER NO-UNDO EXTENT 16.
 DEFINE VARIABLE iMax   AS INTEGER NO-UNDO.
@@ -29,3 +28,10 @@ END.
 
 MESSAGE iSum VIEW-AS ALERT-BOX INFORMATION.
 
+/*---------------------------                 */
+/*Information (Press HELP to view stack trace)*/
+/*---------------------------                 */
+/*226                                         */
+/*---------------------------                 */
+/*OK   Help                                   */
+/*---------------------------                 */
