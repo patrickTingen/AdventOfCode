@@ -42,3 +42,12 @@ REPEAT:
 END.
 INPUT CLOSE. 
 
+FOR EACH ttClaim WHERE ttClaim.ii = 1: 
+  iNum = iNum + 1.
+END.
+
+MESSAGE iNum
+  VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+  
+  
+  
