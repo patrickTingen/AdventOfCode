@@ -1,5 +1,5 @@
 /* Advent of code 2018
-** day 5
+** day 5 
 */
 DEFINE VARIABLE s AS LONGCHAR  NO-UNDO.
 DEFINE VARIABLE a AS CHARACTER NO-UNDO CASE-SENSITIVE.
@@ -11,18 +11,10 @@ COPY-LOB FILE "2018-05.dat" TO s.
 PAUSE 0 BEFORE-HIDE. 
 
 REPEAT:
-
   X = LENGTH(s).
 
   #loop:
   DO i = 1 TO LENGTH(s) - 1:
-
-    IF ETIME > 1000 THEN
-    DO:
-      MESSAGE LENGTH(s).
-      ETIME(YES).
-    END.                
-
     a = SUBSTRING(s,i,1).
     b = SUBSTRING(s,i + 1,1).
     IF a <> b AND CAPS(a) = CAPS(b) THEN OVERLAY(s,i,2) = '..'.
@@ -31,8 +23,9 @@ REPEAT:
 
   IF LENGTH(s) = X THEN
   DO:
-    COPY-LOB s TO FILE "2018-05-debug.dat".
     MESSAGE X VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
     LEAVE.
   END.
 END. 
+
+/* look at 2018-05a-stack.p for a faster solution */
