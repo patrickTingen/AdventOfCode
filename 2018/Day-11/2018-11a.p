@@ -9,10 +9,18 @@ DEFINE TEMP-TABLE ttCell
   FIELD TotPwr AS INTEGER
   INDEX iPrim iPosX iPosY.
   
+DEFINE TEMP-TABLE ttSquare NO-UNDO
+  FIELD iSize  AS INTEGER
+  FIELD iPosX  AS INTEGER
+  FIELD iPosY  AS INTEGER
+  FIELD RackId AS INTEGER
+  FIELD TotPwr AS INTEGER.
+  
 DEFINE BUFFER bCell FOR ttCell. 
 DEFINE VARIABLE i AS INTEGER     NO-UNDO.
 DEFINE VARIABLE j AS INTEGER     NO-UNDO.
 DEFINE VARIABLE g AS INTEGER     NO-UNDO INITIAL 300.
+DEFINE VARIABLE s AS INTEGER     NO-UNDO.
 DEFINE VARIABLE giSerialNr AS INTEGER NO-UNDO INITIAL 1723.
 
 /*
@@ -47,18 +55,36 @@ DO i = 1 TO g:
   END. 
 END.
 
-FOR EACH ttCell WHERE ttCell.iPosX <= (g - 2)
-                  AND ttCell.iPosY > 1 AND ttCell.iPosY < (g - 2):
-  DO i = 0 TO 2:
-    DO j = 0 TO 2:
-      FIND bCell WHERE bCell.iPosX = ttCell.iPosX + i AND bCell.iPosY = ttCell.iPosY + j.
-      ASSIGN ttCell.TotPwr = ttCell.TotPwr + bCell.Power.
+DO s = 3 TO 3:
+  
+  FOR EACH ttCell WHERE ttCell.iPosX <= (g - s + 1) AND ttCell.iPosY <= (g - s + 1):
+    IF ETIME > 1000 THEN DO:      
+      HIDE MESSAGE NO-PAUSE. 
+      MESSAGE ttCell.iPosX ttCell.iPosY.
+      ETIME(YES).
+      PROCESS EVENTS.
+    END.
+
+    DO i = 1 TO 3:
+      DO j = 1 TO 3:
+        FIND bCell WHERE bCell.iPosX = ttCell.iPosX + i - 1 AND bCell.iPosY = ttCell.iPosY + j - 1.
+        ASSIGN ttCell.TotPwr = ttCell.TotPwr + bCell.Power.
+      END.
     END.
   END.
+
+  FOR EACH ttCell BY ttCell.TotPwr DESCENDING:
+    CREATE ttSquare.
+    ASSIGN 
+      ttSquare.iSize  = s
+      ttSquare.iPosX  = ttCell.iPosX.
+      ttSquare.iPosY  = ttCell.iPosY.
+      ttSquare.TotPwr = ttCell.TotPwr.
+    LEAVE.
+  END. 
 END.
 
-FOR EACH ttCell BY ttCell.TotPwr DESCENDING:
-  MESSAGE ttCell.iPosX ttCell.iPosY ttCell.TotPwr
-    VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
-  LEAVE.
-END. 
+ 
+
+
+
