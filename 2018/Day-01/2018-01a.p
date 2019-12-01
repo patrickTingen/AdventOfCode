@@ -1,5 +1,5 @@
 /* Advent of code 2018
-** day 1
+** day 1a
 */
 DEFINE VARIABLE iFreq AS INTEGER   NO-UNDO.
 DEFINE VARIABLE cLine AS CHARACTER NO-UNDO.
