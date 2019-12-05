@@ -9,7 +9,8 @@ DEFINE VARIABLE d AS INTEGER   NO-UNDO.
 DEFINE VARIABLE e AS INTEGER   NO-UNDO.
 DEFINE VARIABLE f AS INTEGER   NO-UNDO.
 DEFINE VARIABLE i AS INTEGER   NO-UNDO.
-DEFINE VARIABLE j AS INTEGER   NO-UNDO.
+DEFINE VARIABLE j AS INTEGER   NO-UNDO EXTENT 2.
+DEFINE VARIABLE iLimit AS INTEGER   NO-UNDO EXTENT 2 INITIAL [108457, 562041].
 
 /*
 It is a six-digit number.
@@ -17,7 +18,8 @@ The value is within the range given in your puzzle input.
 Two adjacent digits are the same (like 22 in 122345).
 Going from left to right, the digits never decrease; 
 */
-DO a = 1 TO 5:
+DO a = 0 TO 9:
+
   DO b = 0 TO 9:
     IF b < a THEN NEXT. 
 
@@ -34,15 +36,22 @@ DO a = 1 TO 5:
             IF f < e THEN NEXT. 
 
             i = a * 100000 + b * 10000 + c * 1000 + d * 100 + e * 10 + f.
-            IF i < 108457 THEN NEXT. 
+            IF i < iLimit[1] THEN NEXT. 
   
-            IF i > 562041 THEN DO: 
-              MESSAGE j VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+            IF i > iLimit[2] THEN DO: 
+              MESSAGE j[1] j[2] VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
               STOP.
             END.
 
-            IF (b >= a) AND (c >= b) AND (d >= c) AND (e >= d) AND (f >= e) 
-              AND ( (a = b) OR (b = c) OR (c = d) OR (d = e) OR (e = f) ) THEN j = j + 1.
+            /* part 1 */
+            IF (a = b) OR (b = c) OR (c = d) OR (d = e) OR (e = f) THEN j[1] = j[1] + 1.
+
+            /* part 2 */
+            IF (    (a = b AND b <> c) 
+                 OR (b = c AND c <> d AND b <> a) 
+                 OR (c = d AND d <> e AND c <> b) 
+                 OR (d = e AND e <> f AND d <> c)
+                 OR (e = f            AND e <> d) ) THEN j[2] = j[2] + 1.
           END.
         END.
       END.
