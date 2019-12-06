@@ -19,21 +19,11 @@ Two adjacent digits are the same (like 22 in 122345).
 Going from left to right, the digits never decrease; 
 */
 DO a = 0 TO 9:
-
-  DO b = 0 TO 9:
-    IF b < a THEN NEXT. 
-
-    DO c = 0 TO 9:
-      IF c < b THEN NEXT. 
-
-      DO d = 0 TO 9:
-        IF d < c THEN NEXT. 
-
-        DO e = 0 TO 9:
-          IF e < d THEN NEXT. 
-
-          DO f = 0 TO 9:
-            IF f < e THEN NEXT. 
+  DO b = a TO 9:
+    DO c = b TO 9:
+      DO d = c TO 9:
+        DO e = d TO 9:
+          DO f = e TO 9:
 
             i = a * 100000 + b * 10000 + c * 1000 + d * 100 + e * 10 + f.
             IF i < iLimit[1] THEN NEXT. 
