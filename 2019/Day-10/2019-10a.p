@@ -18,7 +18,7 @@ FUNCTION getAngle RETURNS DECIMAL
   RETURN dAngle.
 END FUNCTION. /* getAngle */
 
-RUN readData('2019-10.dat').
+RUN readData('2019-10-test5.dat').
 
 FOR EACH ttAsteroid:
   RUN calcAngles(BUFFER ttAsteroid).
@@ -28,37 +28,21 @@ END.
 FOR EACH ttAsteroid BREAK BY ttAsteroid.iNumSee DESCENDING:
   MESSAGE SUBSTITUTE('Part 1: best is &1,&2 with &3 in sight', ttAsteroid.iPosX, ttAsteroid.iPosY, ttAsteroid.iNumSee) VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
 
-  /* For part 2, set angles for best point */
+  /* For part 2, set angles */
   RUN calcAngles(BUFFER ttAsteroid).
   LEAVE.
 END.
 
-/* Part 2, recalculate angles */
-FOR EACH ttAsteroid:
-  ttAsteroid.dAngle = (180 - ttAsteroid.dAngle) + 90.
-  IF ttAsteroid.dAngle < 0 THEN ttAsteroid.dAngle = ttAsteroid.dAngle + 360.
-END.
-
-DEFINE VARIABLE iShot AS INTEGER   NO-UNDO.
-
-REPEAT:
-  FOR EACH ttAsteroid BREAK BY ttAsteroid.dAngle BY ttAsteroid.dDist:
-    IF FIRST-OF(ttAsteroid.dAngle) THEN 
-    DO:
-      iShot = iShot + 1.
-      IF iShot = 200 THEN 
-      DO:
-        MESSAGE ttAsteroid.iPosX ttAsteroid.iPosY VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
-        STOP.
-      END.
-  
-      DELETE ttAsteroid.
-    END.
-  END.
-END.
-
-
-
+/* For part 2, save data to xml */
+TEMP-TABLE ttAsteroid:WRITE-XML 
+  ( 'file'           /* cTargetType */
+  , 'ttAsteroid.xml' /* cFile */
+  , YES              /* lFormatted */
+  , ?                /* cEncoding */
+  , ?                /* cSchemaLocation */
+  , FALSE            /* lWriteSchema */
+  , FALSE            /* lMinSchema*/
+  ).
 
 
 PROCEDURE calcAngles:
