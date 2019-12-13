@@ -1,5 +1,5 @@
 This repository is a collection of my solutions to the Advent Of Code 
-All written in Progress ABL
+All written in Progress ABL (4GL)
 
 ## WHAT IS ADVENT OF CODE?
 
@@ -10,3 +10,4 @@ All written in Progress ABL
 	that build on a theme.
 
 	Check http://adventofcode.com/
+	
