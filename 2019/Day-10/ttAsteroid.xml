@@ -1,2348 +1,2103 @@
 <?xml version="1.0"?>
 <ttAsteroid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>120.0685828227</dAngle>
-    <dDist>21.9544984001</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>3</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>112.8336541776</dAngle>
-    <dDist>20.6155281281</dDist>
-    <iNumSee>219</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>107.525568371</dAngle>
-    <dDist>19.9248588452</dDist>
-    <iNumSee>226</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>7</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>101.8886580408</dAngle>
-    <dDist>19.4164878389</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>96.0090059588</dAngle>
-    <dDist>19.1049731745</dDist>
-    <iNumSee>219</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>93.0127875065</dAngle>
-    <dDist>19.0262975904</dDist>
-    <iNumSee>226</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>89.9999999971</dAngle>
-    <dDist>19.0</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>86.9872124935</dAngle>
-    <dDist>19.0262975904</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>13</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>83.9909940412</dAngle>
-    <dDist>19.1049731745</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>81.0273733867</dAngle>
-    <dDist>19.2353840617</dDist>
-    <iNumSee>225</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>72.4744316232</dAngle>
-    <dDist>19.9248588452</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>67.1663458223</dAngle>
-    <dDist>20.6155281281</dDist>
-    <iNumSee>227</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>57.7243556869</dAngle>
-    <dDist>22.4722050542</dDist>
-    <iNumSee>225</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>0</iPosY>
-    <dAngle>55.6196552724</dAngle>
-    <dDist>23.0217288664</dDist>
-    <iNumSee>223</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>121.4295656157</dAngle>
-    <dDist>21.0950231097</dDist>
-    <iNumSee>228</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>119.0546040974</dAngle>
-    <dDist>20.591260282</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>3</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>113.9624889735</dAngle>
-    <dDist>19.6977156036</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>105.5241109978</dAngle>
-    <dDist>18.6815416923</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>8</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>99.4623222103</dAngle>
-    <dDist>18.2482875909</dDist>
-    <iNumSee>240</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>89.9999999971</dAngle>
-    <dDist>18.0</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>86.8201698798</dAngle>
-    <dDist>18.0277563773</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>80.5376777896</dAngle>
-    <dDist>18.2482875909</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>71.5650511735</dAngle>
-    <dDist>18.973665961</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>68.7494944901</dAngle>
-    <dDist>19.3132079158</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>66.0375110264</dAngle>
-    <dDist>19.6977156036</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>63.4349488193</dAngle>
-    <dDist>20.1246117975</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>60.9453959025</dAngle>
-    <dDist>20.591260282</dDist>
-    <iNumSee>249</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>58.5704343843</dAngle>
-    <dDist>21.0950231097</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>1</iPosY>
-    <dAngle>54.1623470441</dAngle>
-    <dDist>22.2036033112</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>120.4655449198</dAngle>
-    <dDist>19.7230829233</dDist>
-    <iNumSee>227</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>3</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>115.2011236481</dAngle>
-    <dDist>18.7882942281</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>112.3801350498</dAngle>
-    <dDist>18.3847763109</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>106.3895403363</dAngle>
-    <dDist>17.7200451467</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>96.7098368069</dAngle>
-    <dDist>17.1172427686</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>93.3664606655</dAngle>
-    <dDist>17.0293863659</dDist>
-    <iNumSee>223</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>13</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>83.290163193</dAngle>
-    <dDist>17.1172427686</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>15</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>76.7594800813</dAngle>
-    <dDist>17.4642491966</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>70.5599651715</dAngle>
-    <dDist>18.0277563773</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>67.6198649444</dAngle>
-    <dDist>18.3847763109</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>64.7988763518</dAngle>
-    <dDist>18.7882942281</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>62.102728966</dAngle>
-    <dDist>19.2353840617</dDist>
-    <iNumSee>240</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>2</iPosY>
-    <dAngle>57.0947570775</dAngle>
-    <dDist>20.2484567313</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>122.0053832093</dAngle>
-    <dDist>18.8679622641</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>113.6293777286</dAngle>
-    <dDist>17.4642491966</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>110.556045219</dAngle>
-    <dDist>17.0880074906</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>7</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>104.0362434696</dAngle>
-    <dDist>16.4924225025</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>97.1250163493</dAngle>
-    <dDist>16.1245154966</dDist>
-    <iNumSee>242</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>86.4236656218</dAngle>
-    <dDist>16.0312195419</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>79.3803447204</dAngle>
-    <dDist>16.2788205961</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>66.3706222656</dAngle>
-    <dDist>17.4642491966</dDist>
-    <iNumSee>240</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>55.4914770105</dAngle>
-    <dDist>19.4164878389</dDist>
-    <iNumSee>243</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>3</iPosY>
-    <dAngle>50.9061411141</dAngle>
-    <dDist>20.6155281281</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>126.2538377354</dAngle>
-    <dDist>18.6010752377</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>115.0168934809</dAngle>
-    <dDist>16.5529453572</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>111.8014094891</dAngle>
-    <dDist>16.1554944214</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>108.4349488207</dAngle>
-    <dDist>15.8113883008</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>8</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>101.3099324743</dAngle>
-    <dDist>15.2970585408</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>97.5946433661</dAngle>
-    <dDist>15.1327459504</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>89.9999999971</dAngle>
-    <dDist>15.0</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>86.1859251671</dAngle>
-    <dDist>15.0332963784</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>15</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>75.0685828213</dAngle>
-    <dDist>15.5241746963</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>16</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>71.5650511735</dAngle>
-    <dDist>15.8113883008</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>59.0362434682</dAngle>
-    <dDist>17.4928556845</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>4</iPosY>
-    <dAngle>51.3401917433</dAngle>
-    <dDist>19.2093727123</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>128.1572265867</dAngle>
-    <dDist>17.8044938148</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>125.5376777911</dAngle>
-    <dDist>17.2046505341</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>116.5650511749</dAngle>
-    <dDist>15.6524758425</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>109.6538240603</dAngle>
-    <dDist>14.8660687473</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>8</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>102.0947570789</dAngle>
-    <dDist>14.3178210633</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>94.085616778</dAngle>
-    <dDist>14.0356688476</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>89.9999999971</dAngle>
-    <dDist>14.0</dDist>
-    <iNumSee>252</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>85.9143832219</dAngle>
-    <dDist>14.0356688476</dDist>
-    <iNumSee>245</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>16</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>70.3461759397</dAngle>
-    <dDist>14.8660687473</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>63.4349488193</dAngle>
-    <dDist>15.6524758425</dDist>
-    <iNumSee>243</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>60.255118702</dAngle>
-    <dDist>16.1245154966</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>51.8427734132</dAngle>
-    <dDist>17.8044938148</dDist>
-    <iNumSee>242</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>5</iPosY>
-    <dAngle>47.1210963939</dAngle>
-    <dDist>19.1049731745</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>130.2363583127</dAngle>
-    <dDist>17.0293863659</dDist>
-    <iNumSee>225</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>127.5685920303</dAngle>
     <dDist>16.4012194669</dDist>
-    <iNumSee>222</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>2</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>124.695153529</dAngle>
-    <dDist>15.8113883008</dDist>
-    <iNumSee>226</iNumSee>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>118.3007557685</dAngle>
     <dDist>14.7648230602</dDist>
-    <iNumSee>223</iNumSee>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>114.7751405683</dAngle>
     <dDist>14.3178210633</dDist>
-    <iNumSee>228</iNumSee>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>111.0375110278</dAngle>
-    <dDist>13.9283882772</dDist>
-    <iNumSee>232</iNumSee>
+    <iPosX>7</iPosX>
+    <iPosY>0</iPosY>
+    <dAngle>107.1027289674</dAngle>
+    <dDist>13.6014705087</dDist>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>8</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>102.994616792</dAngle>
     <dDist>13.3416640641</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>94.398705354</dAngle>
-    <dDist>13.0384048104</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>89.9999999971</dAngle>
-    <dDist>13.0</dDist>
-    <iNumSee>229</iNumSee>
+    <iPosX>9</iPosX>
+    <iPosY>0</iPosY>
+    <dAngle>98.7461622602</dAngle>
+    <dDist>13.152946438</dDist>
+    <iNumSee>185</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>81.253837734</dAngle>
     <dDist>13.152946438</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>189</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>14</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>77.0053832079</dAngle>
     <dDist>13.3416640641</dDist>
-    <iNumSee>222</iNumSee>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>0</iPosY>
+    <dAngle>72.8972710325</dAngle>
+    <dDist>13.6014705087</dDist>
+    <iNumSee>190</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>0</iPosY>
+    <dAngle>68.9624889721</dAngle>
+    <dDist>13.9283882772</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>17</iPosX>
+    <iPosY>0</iPosY>
+    <dAngle>65.2248594316</dAngle>
+    <dDist>14.3178210633</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>0</iPosY>
+    <dAngle>61.6992442314</dAngle>
+    <dDist>14.7648230602</dDist>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>6</iPosY>
+    <iPosY>0</iPosY>
     <dAngle>58.3924977516</dAngle>
     <dDist>15.2643375225</dDist>
-    <iNumSee>226</iNumSee>
+    <iNumSee>187</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>55.3048464652</dAngle>
-    <dDist>15.8113883008</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>52.4314079696</dAngle>
-    <dDist>16.4012194669</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>49.7636416872</dAngle>
-    <dDist>17.0293863659</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>6</iPosY>
-    <dAngle>47.2906100428</dAngle>
-    <dDist>17.691806013</dDist>
-    <iNumSee>234</iNumSee>
+    <iPosX>0</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>132.5104470817</dAngle>
+    <dDist>16.2788205961</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>129.8055710907</dAngle>
     <dDist>15.6204993518</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>2</iPosX>
-    <iPosY>7</iPosY>
-    <dAngle>126.8698976444</dAngle>
-    <dDist>15.0</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>123.690067527</dAngle>
     <dDist>14.4222051019</dDist>
-    <iNumSee>235</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>120.2564371657</dAngle>
     <dDist>13.8924439894</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>116.5650511749</dAngle>
     <dDist>13.416407865</dDist>
-    <iNumSee>242</iNumSee>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>112.6198649458</dAngle>
+    <dDist>13.0</dDist>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>7</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>108.4349488207</dAngle>
     <dDist>12.6491106407</dDist>
-    <iNumSee>239</iNumSee>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>104.0362434696</dAngle>
+    <dDist>12.3693168769</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>9</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>99.4623222103</dAngle>
     <dDist>12.1655250606</dDist>
-    <iNumSee>242</iNumSee>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>94.7636416886</dAngle>
+    <dDist>12.0415945788</dDist>
+    <iNumSee>190</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>89.9999999971</dAngle>
+    <dDist>12.0</dDist>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>85.2363583113</dAngle>
+    <dDist>12.0415945788</dDist>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>80.5376777896</dAngle>
     <dDist>12.1655250606</dDist>
-    <iNumSee>252</iNumSee>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>16</iPosX>
-    <iPosY>7</iPosY>
-    <dAngle>67.3801350484</dAngle>
-    <dDist>13.0</dDist>
-    <iNumSee>235</iNumSee>
+    <iPosX>14</iPosX>
+    <iPosY>1</iPosY>
+    <dAngle>75.9637565303</dAngle>
+    <dDist>12.3693168769</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>63.4349488193</dAngle>
     <dDist>13.416407865</dDist>
-    <iNumSee>238</iNumSee>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>18</iPosX>
-    <iPosY>7</iPosY>
+    <iPosY>1</iPosY>
     <dAngle>59.7435628342</dAngle>
     <dDist>13.8924439894</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>7</iPosY>
-    <dAngle>56.3099324729</dAngle>
-    <dDist>14.4222051019</dDist>
-    <iNumSee>245</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>7</iPosY>
-    <dAngle>53.1301023556</dAngle>
-    <dDist>15.0</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>7</iPosY>
-    <dAngle>44.9999999957</dAngle>
-    <dDist>16.9705627485</dDist>
-    <iNumSee>241</iNumSee>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>132.2736890089</dAngle>
     <dDist>14.8660687473</dDist>
-    <iNumSee>225</iNumSee>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>126.0273733881</dAngle>
     <dDist>13.6014705087</dDist>
-    <iNumSee>220</iNumSee>
+    <iNumSee>189</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>122.4711922933</dAngle>
     <dDist>13.0384048104</dDist>
-    <iNumSee>224</iNumSee>
+    <iNumSee>192</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>118.610459665</dAngle>
+    <dDist>12.5299640861</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>114.4439547824</dAngle>
+    <dDist>12.0830459736</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>109.9831065205</dAngle>
+    <dDist>11.7046999107</dDist>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>8</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>105.2551187034</dAngle>
     <dDist>11.401754251</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>95.1944289049</dAngle>
     <dDist>11.0453610172</dDist>
-    <iNumSee>228</iNumSee>
+    <iNumSee>192</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>89.9999999971</dAngle>
+    <dDist>11.0</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>84.8055710893</dAngle>
+    <dDist>11.0453610172</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>13</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>79.6951535333</dAngle>
+    <dDist>11.1803398875</dDist>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>14</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>74.7448812965</dAngle>
     <dDist>11.401754251</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>15</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>70.0168934794</dAngle>
     <dDist>11.7046999107</dDist>
-    <iNumSee>230</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>65.5560452175</dAngle>
     <dDist>12.0830459736</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>8</iPosY>
+    <iPosY>2</iPosY>
     <dAngle>61.3895403349</dAngle>
     <dDist>12.5299640861</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>8</iPosY>
-    <dAngle>57.5288077067</dAngle>
-    <dDist>13.0384048104</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>8</iPosY>
-    <dAngle>50.7105931339</dAngle>
-    <dDist>14.2126704036</dDist>
-    <iNumSee>242</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>8</iPosY>
-    <dAngle>47.726310991</dAngle>
-    <dDist>14.8660687473</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>9</iPosY>
-    <dAngle>137.7263109938</dAngle>
-    <dDist>14.8660687473</dDist>
-    <iNumSee>233</iNumSee>
+    <iPosX>19</iPosX>
+    <iPosY>2</iPosY>
+    <dAngle>53.9726266119</dAngle>
+    <dDist>13.6014705087</dDist>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>134.9999999985</dAngle>
     <dDist>14.1421356237</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>2</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>131.9872124949</dAngle>
     <dDist>13.4536240471</dDist>
-    <iNumSee>230</iNumSee>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>128.6598082567</dAngle>
     <dDist>12.8062484749</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>9</iPosY>
-    <dAngle>124.9920201973</dAngle>
-    <dDist>12.2065556157</dDist>
-    <iNumSee>226</iNumSee>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>120.9637565317</dAngle>
     <dDist>11.6619037897</dDist>
-    <iNumSee>239</iNumSee>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>3</iPosY>
+    <dAngle>116.5650511749</dAngle>
+    <dDist>11.1803398875</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>7</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>111.8014094891</dAngle>
     <dDist>10.7703296143</dDist>
-    <iNumSee>236</iNumSee>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>3</iPosY>
+    <dAngle>106.6992442328</dAngle>
+    <dDist>10.4403065089</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>3</iPosY>
+    <dAngle>101.3099324743</dAngle>
+    <dDist>10.1980390272</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>95.7105931353</dAngle>
     <dDist>10.0498756211</dDist>
-    <iNumSee>234</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>11</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>89.9999999971</dAngle>
     <dDist>10.0</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>78.6900675256</dAngle>
     <dDist>10.1980390272</dDist>
-    <iNumSee>240</iNumSee>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>3</iPosY>
+    <dAngle>73.3007557671</dAngle>
+    <dDist>10.4403065089</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>3</iPosY>
+    <dAngle>68.1985905108</dAngle>
+    <dDist>10.7703296143</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>63.4349488193</dAngle>
     <dDist>11.1803398875</dDist>
-    <iNumSee>236</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>18</iPosX>
-    <iPosY>9</iPosY>
+    <iPosY>3</iPosY>
     <dAngle>55.0079798027</dAngle>
     <dDist>12.2065556157</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>9</iPosY>
-    <dAngle>48.0127875051</dAngle>
-    <dDist>13.4536240471</dDist>
-    <iNumSee>224</iNumSee>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>0</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>140.7105931367</dAngle>
     <dDist>14.2126704036</dDist>
-    <iNumSee>227</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>138.0127875079</dAngle>
     <dDist>13.4536240471</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>187</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>2</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>134.9999999985</dAngle>
     <dDist>12.7279220614</dDist>
-    <iNumSee>222</iNumSee>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>3</iPosX>
+    <iPosY>4</iPosY>
+    <dAngle>131.6335393359</dAngle>
+    <dDist>12.0415945788</dDist>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>127.8749836521</dAngle>
     <dDist>11.401754251</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>10</iPosY>
-    <dAngle>123.690067527</dAngle>
-    <dDist>10.8166538264</dDist>
-    <iNumSee>225</iNumSee>
+    <iPosX>6</iPosX>
+    <iPosY>4</iPosY>
+    <dAngle>119.0546040974</dAngle>
+    <dDist>10.295630141</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>7</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>113.9624889735</dAngle>
     <dDist>9.8488578018</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>8</iPosX>
-    <iPosY>10</iPosY>
-    <dAngle>108.4349488207</dAngle>
-    <dDist>9.4868329805</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>9</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>102.5288077081</dAngle>
     <dDist>9.2195444573</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>10</iPosY>
-    <dAngle>96.3401917447</dAngle>
-    <dDist>9.0553851381</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>11</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>89.9999999971</dAngle>
     <dDist>9.0</dDist>
-    <iNumSee>236</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>12</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>83.6598082552</dAngle>
     <dDist>9.0553851381</dDist>
-    <iNumSee>235</iNumSee>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>13</iPosX>
-    <iPosY>10</iPosY>
-    <dAngle>77.4711922918</dAngle>
-    <dDist>9.2195444573</dDist>
-    <iNumSee>240</iNumSee>
+    <iPosX>14</iPosX>
+    <iPosY>4</iPosY>
+    <dAngle>71.5650511735</dAngle>
+    <dDist>9.4868329805</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>4</iPosY>
+    <dAngle>66.0375110264</dAngle>
+    <dDist>9.8488578018</dDist>
+    <iNumSee>188</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>4</iPosY>
+    <dAngle>60.9453959025</dAngle>
+    <dDist>10.295630141</dDist>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>18</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>52.1250163478</dAngle>
     <dDist>11.401754251</dDist>
-    <iNumSee>230</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>10</iPosY>
+    <iPosY>4</iPosY>
     <dAngle>48.366460664</dAngle>
     <dDist>12.0415945788</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>10</iPosY>
-    <dAngle>41.987212492</dAngle>
-    <dDist>13.4536240471</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>10</iPosY>
-    <dAngle>34.6951535319</dAngle>
-    <dDist>15.8113883008</dDist>
-    <iNumSee>224</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>11</iPosY>
-    <dAngle>141.3401917461</dAngle>
-    <dDist>12.8062484749</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>2</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>138.3664606669</dAngle>
     <dDist>12.0415945788</dDist>
-    <iNumSee>232</iNumSee>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>134.9999999985</dAngle>
     <dDist>11.313708499</dDist>
-    <iNumSee>241</iNumSee>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>131.1859251685</dAngle>
     <dDist>10.6301458127</dDist>
-    <iNumSee>223</iNumSee>
+    <iNumSee>191</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>5</iPosY>
+    <dAngle>126.8698976444</dAngle>
+    <dDist>10.0</dDist>
+    <iNumSee>205</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>6</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>122.0053832093</dAngle>
     <dDist>9.4339811321</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>201</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>7</iPosX>
-    <iPosY>11</iPosY>
-    <dAngle>116.5650511749</dAngle>
-    <dDist>8.94427191</dDist>
-    <iNumSee>245</iNumSee>
+    <iPosX>9</iPosX>
+    <iPosY>5</iPosY>
+    <dAngle>104.0362434696</dAngle>
+    <dDist>8.2462112512</dDist>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>11</iPosY>
-    <dAngle>97.1250163493</dAngle>
-    <dDist>8.0622577483</dDist>
-    <iNumSee>232</iNumSee>
+    <iPosX>11</iPosX>
+    <iPosY>5</iPosY>
+    <dAngle>89.9999999971</dAngle>
+    <dDist>8.0</dDist>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>12</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>82.8749836507</dAngle>
     <dDist>8.0622577483</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>75.9637565303</dAngle>
     <dDist>8.2462112512</dDist>
-    <iNumSee>241</iNumSee>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>5</iPosY>
+    <dAngle>69.443954781</dAngle>
+    <dDist>8.5440037453</dDist>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>15</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>63.4349488193</dAngle>
     <dDist>8.94427191</dDist>
-    <iNumSee>243</iNumSee>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>5</iPosY>
+    <dAngle>57.9946167906</dAngle>
+    <dDist>9.4339811321</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>53.1301023556</dAngle>
     <dDist>10.0</dDist>
-    <iNumSee>248</iNumSee>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>5</iPosY>
+    <dAngle>48.8140748315</dAngle>
+    <dDist>10.6301458127</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>11</iPosY>
+    <iPosY>5</iPosY>
     <dAngle>44.9999999957</dAngle>
     <dDist>11.313708499</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>11</iPosY>
-    <dAngle>41.6335393331</dAngle>
-    <dDist>12.0415945788</dDist>
-    <iNumSee>244</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>11</iPosY>
-    <dAngle>31.6075022455</dAngle>
-    <dDist>15.2643375225</dDist>
-    <iNumSee>232</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>0</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>147.5288077095</dAngle>
     <dDist>13.0384048104</dDist>
-    <iNumSee>225</iNumSee>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>145.0079798055</dAngle>
     <dDist>12.2065556157</dDist>
-    <iNumSee>221</iNumSee>
+    <iNumSee>190</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>2</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>142.1250163507</dAngle>
+    <dDist>11.401754251</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>3</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>138.8140748343</dAngle>
+    <dDist>10.6301458127</dDist>
+    <iNumSee>192</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>4</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>134.9999999985</dAngle>
+    <dDist>9.8994949366</dDist>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>130.6012946474</dAngle>
     <dDist>9.2195444573</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>6</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>125.5376777911</dAngle>
     <dDist>8.602325267</dDist>
-    <iNumSee>239</iNumSee>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>119.7448812979</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>8</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>113.1985905123</dAngle>
     <dDist>7.6157731059</dDist>
-    <iNumSee>227</iNumSee>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>9</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>105.9453959039</dAngle>
     <dDist>7.2801098893</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>98.1301023513</dAngle>
     <dDist>7.0710678119</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>11</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>89.9999999971</dAngle>
     <dDist>7.0</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>12</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>81.869897643</dAngle>
     <dDist>7.0710678119</dDist>
-    <iNumSee>234</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>74.054604096</dAngle>
     <dDist>7.2801098893</dDist>
-    <iNumSee>227</iNumSee>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>66.8014094877</dAngle>
+    <dDist>7.6157731059</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>60.255118702</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>54.4623222089</dAngle>
     <dDist>8.602325267</dDist>
-    <iNumSee>227</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>12</iPosY>
+    <iPosY>6</iPosY>
     <dAngle>49.3987053525</dAngle>
     <dDist>9.2195444573</dDist>
-    <iNumSee>221</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>12</iPosY>
-    <dAngle>37.8749836493</dAngle>
-    <dDist>11.401754251</dDist>
-    <iNumSee>224</iNumSee>
+    <iPosX>18</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>44.9999999957</dAngle>
+    <dDist>9.8994949366</dDist>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>12</iPosY>
-    <dAngle>32.4711922904</dAngle>
-    <dDist>13.0384048104</dDist>
-    <iNumSee>221</iNumSee>
+    <iPosX>19</iPosX>
+    <iPosY>6</iPosY>
+    <dAngle>41.1859251656</dAngle>
+    <dDist>10.6301458127</dDist>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>12</iPosY>
-    <dAngle>30.2564371629</dAngle>
-    <dDist>13.8924439894</dDist>
-    <iNumSee>232</iNumSee>
+    <iPosX>0</iPosX>
+    <iPosY>7</iPosY>
+    <dAngle>151.3895403378</dAngle>
+    <dDist>12.5299640861</dDist>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>12</iPosY>
-    <dAngle>28.3007557657</dAngle>
-    <dDist>14.7648230602</dDist>
-    <iNumSee>231</iNumSee>
+    <iPosX>2</iPosX>
+    <iPosY>7</iPosY>
+    <dAngle>146.3099324757</dAngle>
+    <dDist>10.8166538264</dDist>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>143.1301023527</dAngle>
     <dDist>10.0</dDist>
-    <iNumSee>236</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>139.3987053554</dAngle>
     <dDist>9.2195444573</dDist>
-    <iNumSee>235</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>134.9999999985</dAngle>
     <dDist>8.4852813742</dDist>
-    <iNumSee>245</iNumSee>
+    <iNumSee>205</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>13</iPosY>
-    <dAngle>108.4349488207</dAngle>
-    <dDist>6.3245553203</dDist>
-    <iNumSee>242</iNumSee>
+    <iPosX>10</iPosX>
+    <iPosY>7</iPosY>
+    <dAngle>99.4623222103</dAngle>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>7</iPosY>
+    <dAngle>89.9999999971</dAngle>
+    <dDist>6.0</dDist>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>12</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>80.5376777896</dAngle>
     <dDist>6.0827625303</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>202</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>7</iPosY>
+    <dAngle>63.4349488193</dAngle>
+    <dDist>6.7082039325</dDist>
+    <iNumSee>201</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>50.1944289035</dAngle>
     <dDist>7.8102496759</dDist>
-    <iNumSee>238</iNumSee>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>18</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>40.6012946446</dAngle>
     <dDist>9.2195444573</dDist>
-    <iNumSee>238</iNumSee>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>13</iPosY>
+    <iPosY>7</iPosY>
     <dAngle>36.8698976415</dAngle>
     <dDist>10.0</dDist>
-    <iNumSee>246</iNumSee>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>13</iPosY>
-    <dAngle>33.6900675242</dAngle>
-    <dDist>10.8166538264</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>13</iPosY>
-    <dAngle>26.5650511778</dAngle>
-    <dDist>13.416407865</dDist>
-    <iNumSee>242</iNumSee>
+    <iPosX>0</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>155.5560452204</dAngle>
+    <dDist>12.0830459736</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>153.4349488222</dAngle>
     <dDist>11.1803398875</dDist>
-    <iNumSee>228</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>2</iPosX>
-    <iPosY>14</iPosY>
-    <dAngle>150.9453958996</dAngle>
-    <dDist>10.295630141</dDist>
-    <iNumSee>232</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>147.9946167934</dAngle>
     <dDist>9.4339811321</dDist>
-    <iNumSee>226</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>144.4623222117</dAngle>
     <dDist>8.602325267</dDist>
-    <iNumSee>227</iNumSee>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>140.1944289064</dAngle>
     <dDist>7.8102496759</dDist>
-    <iNumSee>228</iNumSee>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>134.9999999985</dAngle>
+    <dDist>7.0710678119</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>128.6598082567</dAngle>
+    <dDist>6.4031242374</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>120.9637565317</dAngle>
+    <dDist>5.8309518948</dDist>
+    <iNumSee>202</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>9</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>111.8014094891</dAngle>
     <dDist>5.3851648071</dDist>
-    <iNumSee>225</iNumSee>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>101.3099324743</dAngle>
     <dDist>5.0990195136</dDist>
-    <iNumSee>221</iNumSee>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>89.9999999971</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>78.6900675256</dAngle>
+    <dDist>5.0990195136</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>68.1985905108</dAngle>
     <dDist>5.3851648071</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>59.0362434682</dAngle>
+    <dDist>5.8309518948</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>8</iPosY>
+    <dAngle>51.3401917433</dAngle>
+    <dDist>6.4031242374</dDist>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>44.9999999957</dAngle>
     <dDist>7.0710678119</dDist>
-    <iNumSee>225</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>39.8055710878</dAngle>
     <dDist>7.8102496759</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>18</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>35.5376777882</dAngle>
     <dDist>8.602325267</dDist>
-    <iNumSee>230</iNumSee>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>14</iPosY>
+    <iPosY>8</iPosY>
     <dAngle>32.0053832065</dAngle>
     <dDist>9.4339811321</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>14</iPosY>
-    <dAngle>29.0546040946</dAngle>
-    <dDist>10.295630141</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>14</iPosY>
-    <dAngle>24.4439547796</dAngle>
-    <dDist>12.0830459736</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>14</iPosY>
-    <dAngle>22.619864943</dAngle>
-    <dDist>13.0</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>14</iPosY>
-    <dAngle>21.037511025</dAngle>
-    <dDist>13.9283882772</dDist>
-    <iNumSee>219</iNumSee>
+    <iPosX>0</iPosX>
+    <iPosY>9</iPosY>
+    <dAngle>160.0168934823</dAngle>
+    <dDist>11.7046999107</dDist>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>158.1985905137</dAngle>
     <dDist>10.7703296143</dDist>
-    <iNumSee>232</iNumSee>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>2</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>156.0375110292</dAngle>
     <dDist>9.8488578018</dDist>
-    <iNumSee>233</iNumSee>
+    <iNumSee>205</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>153.4349488222</dAngle>
     <dDist>8.94427191</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>150.2551187048</dAngle>
     <dDist>8.0622577483</dDist>
-    <iNumSee>224</iNumSee>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>146.3099324757</dAngle>
-    <dDist>7.2111025509</dDist>
-    <iNumSee>237</iNumSee>
+    <iPosX>6</iPosX>
+    <iPosY>9</iPosY>
+    <dAngle>141.3401917461</dAngle>
+    <dDist>6.4031242374</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>8</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>126.8698976444</dAngle>
-    <dDist>5.0</dDist>
-    <iNumSee>231</iNumSee>
+    <iPosX>7</iPosX>
+    <iPosY>9</iPosY>
+    <dAngle>134.9999999985</dAngle>
+    <dDist>5.6568542495</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>9</iPosY>
+    <dAngle>116.5650511749</dAngle>
+    <dDist>4.472135955</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>104.0362434696</dAngle>
     <dDist>4.1231056256</dDist>
-    <iNumSee>228</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>11</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>89.9999999971</dAngle>
     <dDist>4.0</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>75.9637565303</dAngle>
-    <dDist>4.1231056256</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>13</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>63.4349488193</dAngle>
-    <dDist>4.472135955</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>14</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>53.1301023556</dAngle>
     <dDist>5.0</dDist>
-    <iNumSee>223</iNumSee>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>15</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>44.9999999957</dAngle>
     <dDist>5.6568542495</dDist>
-    <iNumSee>232</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>15</iPosY>
+    <iPosY>9</iPosY>
     <dAngle>38.6598082538</dAngle>
     <dDist>6.4031242374</dDist>
-    <iNumSee>235</iNumSee>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>29.7448812951</dAngle>
-    <dDist>8.0622577483</dDist>
-    <iNumSee>242</iNumSee>
+    <iPosX>17</iPosX>
+    <iPosY>9</iPosY>
+    <dAngle>33.6900675242</dAngle>
+    <dDist>7.2111025509</dDist>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>26.5650511778</dAngle>
-    <dDist>8.94427191</dDist>
-    <iNumSee>238</iNumSee>
+    <iPosX>2</iPosX>
+    <iPosY>10</iPosY>
+    <dAngle>161.5650511763</dAngle>
+    <dDist>9.4868329805</dDist>
+    <iNumSee>201</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>23.9624889707</dAngle>
-    <dDist>9.8488578018</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>19.9831065177</dAngle>
-    <dDist>11.7046999107</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>15</iPosY>
-    <dAngle>18.4349488179</dAngle>
-    <dDist>12.6491106407</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>16</iPosY>
-    <dAngle>164.7448812994</dAngle>
-    <dDist>11.401754251</dDist>
-    <iNumSee>227</iNumSee>
+    <iPosX>3</iPosX>
+    <iPosY>10</iPosY>
+    <dAngle>159.4439547838</dAngle>
+    <dDist>8.5440037453</dDist>
+    <iNumSee>186</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>4</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>156.8014094905</dAngle>
     <dDist>7.6157731059</dDist>
-    <iNumSee>228</iNumSee>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>153.4349488222</dAngle>
     <dDist>6.7082039325</dDist>
-    <iNumSee>226</iNumSee>
+    <iNumSee>202</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>6</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>149.036243471</dAngle>
     <dDist>5.8309518948</dDist>
-    <iNumSee>227</iNumSee>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>8</iPosX>
-    <iPosY>16</iPosY>
-    <dAngle>134.9999999985</dAngle>
-    <dDist>4.2426406871</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>16</iPosY>
-    <dAngle>123.690067527</dAngle>
-    <dDist>3.6055512755</dDist>
-    <iNumSee>228</iNumSee>
+    <iPosX>7</iPosX>
+    <iPosY>10</iPosY>
+    <dAngle>143.1301023527</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>108.4349488207</dAngle>
     <dDist>3.1622776602</dDist>
-    <iNumSee>238</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>11</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>89.9999999971</dAngle>
     <dDist>3.0</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>13</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>56.3099324729</dAngle>
     <dDist>3.6055512755</dDist>
-    <iNumSee>232</iNumSee>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>14</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>44.9999999957</dAngle>
     <dDist>4.2426406871</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>10</iPosY>
+    <dAngle>36.8698976415</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>16</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>30.9637565289</dAngle>
     <dDist>5.8309518948</dDist>
-    <iNumSee>229</iNumSee>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>26.5650511778</dAngle>
     <dDist>6.7082039325</dDist>
-    <iNumSee>228</iNumSee>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>10</iPosY>
+    <dAngle>23.1985905094</dAngle>
+    <dDist>7.6157731059</dDist>
+    <iNumSee>194</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>16</iPosY>
+    <iPosY>10</iPosY>
     <dAngle>20.5560452161</dAngle>
     <dDist>8.5440037453</dDist>
-    <iNumSee>231</iNumSee>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>16</iPosY>
-    <dAngle>16.69924423</dAngle>
-    <dDist>10.4403065089</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>16</iPosY>
-    <dAngle>15.2551187006</dAngle>
-    <dDist>11.401754251</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>16</iPosY>
-    <dAngle>12.9946167892</dAngle>
-    <dDist>13.3416640641</dDist>
-    <iNumSee>225</iNumSee>
+    <iPosX>0</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>169.6951535304</dAngle>
+    <dDist>11.1803398875</dDist>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>17</iPosY>
+    <iPosY>11</iPosY>
     <dAngle>168.6900675285</dAngle>
     <dDist>10.1980390272</dDist>
-    <iNumSee>243</iNumSee>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>2</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>167.4711922947</dAngle>
+    <dDist>9.2195444573</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>3</iPosX>
-    <iPosY>17</iPosY>
+    <iPosY>11</iPosY>
     <dAngle>165.9637565332</dAngle>
     <dDist>8.2462112512</dDist>
-    <iNumSee>242</iNumSee>
+    <iNumSee>201</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>17</iPosY>
+    <iPosY>11</iPosY>
     <dAngle>161.5650511763</dAngle>
     <dDist>6.3245553203</dDist>
-    <iNumSee>246</iNumSee>
+    <iNumSee>202</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>7</iPosX>
-    <iPosY>17</iPosY>
-    <dAngle>153.4349488222</dAngle>
-    <dDist>4.472135955</dDist>
-    <iNumSee>238</iNumSee>
+    <iPosX>6</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>158.1985905137</dAngle>
+    <dDist>5.3851648071</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>146.3099324757</dAngle>
+    <dDist>3.6055512755</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>9</iPosX>
-    <iPosY>17</iPosY>
+    <iPosY>11</iPosY>
     <dAngle>134.9999999985</dAngle>
     <dDist>2.8284271247</dDist>
-    <iNumSee>244</iNumSee>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>116.5650511749</dAngle>
+    <dDist>2.2360679775</dDist>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>11</iPosX>
-    <iPosY>17</iPosY>
+    <iPosY>11</iPosY>
     <dAngle>89.9999999971</dAngle>
     <dDist>2.0</dDist>
-    <iNumSee>248</iNumSee>
+    <iNumSee>203</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>12</iPosX>
-    <iPosY>17</iPosY>
-    <dAngle>63.4349488193</dAngle>
-    <dDist>2.2360679775</dDist>
-    <iNumSee>233</iNumSee>
+    <iPosX>15</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>26.5650511778</dAngle>
+    <dDist>4.472135955</dDist>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>17</iPosY>
-    <dAngle>33.6900675242</dAngle>
-    <dDist>3.6055512755</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>17</iPosY>
-    <dAngle>18.4349488179</dAngle>
-    <dDist>6.3245553203</dDist>
-    <iNumSee>245</iNumSee>
+    <iPosX>16</iPosX>
+    <iPosY>11</iPosY>
+    <dAngle>21.8014094863</dAngle>
+    <dDist>5.3851648071</dDist>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>17</iPosY>
+    <iPosY>11</iPosY>
     <dAngle>14.0362434668</dAngle>
     <dDist>8.2462112512</dDist>
-    <iNumSee>238</iNumSee>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>17</iPosY>
-    <dAngle>10.3048464638</dAngle>
-    <dDist>11.1803398875</dDist>
-    <iNumSee>237</iNumSee>
+    <iPosX>1</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>174.2894068618</dAngle>
+    <dDist>10.0498756211</dDist>
+    <iNumSee>191</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>17</iPosY>
+    <iPosX>2</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>173.6598082581</dAngle>
+    <dDist>9.0553851381</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>3</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>172.8749836535</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>191</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>4</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>171.8698976458</dAngle>
+    <dDist>7.0710678119</dDist>
+    <iNumSee>191</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>170.5376777925</dAngle>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>161.5650511763</dAngle>
+    <dDist>3.1622776602</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>134.9999999985</dAngle>
+    <dDist>1.4142135624</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>89.9999999971</dAngle>
+    <dDist>1.0</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>44.9999999957</dAngle>
+    <dDist>1.4142135624</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>13</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>26.5650511778</dAngle>
+    <dDist>2.2360679775</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>18.4349488179</dAngle>
+    <dDist>3.1622776602</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>14.0362434668</dAngle>
+    <dDist>4.1231056256</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>17</iPosX>
+    <iPosY>12</iPosY>
     <dAngle>9.4623222075</dAngle>
-    <dDist>12.1655250606</dDist>
-    <iNumSee>250</iNumSee>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>198</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>24</iPosX>
+    <iPosX>18</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>8.1301023541</dAngle>
+    <dDist>7.0710678119</dDist>
+    <iNumSee>192</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>19</iPosX>
+    <iPosY>12</iPosY>
+    <dAngle>7.1250163464</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>191</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>0</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>11.0</dDist>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>1</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>10.0</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>6.0</dDist>
+    <iNumSee>204</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>4.0</dDist>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>3.0</dDist>
+    <iNumSee>208</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>2.0</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>179.9999999999</dAngle>
+    <dDist>1.0</dDist>
+    <iNumSee>202</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>999.0</dAngle>
+    <dDist>0.0</dDist>
+    <iNumSee>420</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>0.0</dAngle>
+    <dDist>1.0</dDist>
+    <iNumSee>203</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>13</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>0.0</dAngle>
+    <dDist>2.0</dDist>
+    <iNumSee>203</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>0.0</dAngle>
+    <dDist>3.0</dDist>
+    <iNumSee>203</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>0.0</dAngle>
+    <dDist>4.0</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>13</iPosY>
+    <dAngle>0.0</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>202</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>0</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>185.1944289079</dAngle>
+    <dDist>11.0453610172</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>2</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>186.3401917419</dAngle>
+    <dDist>9.0553851381</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>3</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>187.1250163465</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>4</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>188.1301023542</dAngle>
+    <dDist>7.0710678119</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>189.4623222075</dAngle>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>191.3099324715</dAngle>
+    <dDist>5.0990195136</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>194.0362434668</dAngle>
+    <dDist>4.1231056256</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>198.4349488237</dAngle>
+    <dDist>3.1622776602</dDist>
+    <iNumSee>203</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>206.5650511778</dAngle>
+    <dDist>2.2360679775</dDist>
+    <iNumSee>192</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>225.0000000015</dAngle>
+    <dDist>1.4142135624</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>270.0000000029</dAngle>
+    <dDist>1.0</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>13</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>333.4349488222</dAngle>
+    <dDist>2.2360679775</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>341.5650511821</dAngle>
+    <dDist>3.1622776602</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>345.9637565332</dAngle>
+    <dDist>4.1231056256</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>348.6900675285</dAngle>
+    <dDist>5.0990195136</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>17</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>350.5376777925</dAngle>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>351.8698976459</dAngle>
+    <dDist>7.0710678119</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>19</iPosX>
+    <iPosY>14</iPosY>
+    <dAngle>352.8749836536</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>1</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>191.3099324715</dAngle>
+    <dDist>10.1980390272</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>2</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>192.5288077053</dAngle>
+    <dDist>9.2195444573</dDist>
+    <iNumSee>202</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>3</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>194.0362434668</dAngle>
+    <dDist>8.2462112512</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>4</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>195.9453959011</dAngle>
+    <dDist>7.2801098893</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>201.8014094863</dAngle>
+    <dDist>5.3851648071</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>213.6900675243</dAngle>
+    <dDist>3.6055512755</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>225.0000000015</dAngle>
+    <dDist>2.8284271247</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>243.4349488251</dAngle>
+    <dDist>2.2360679775</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>296.5650511807</dAngle>
+    <dDist>2.2360679775</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>13</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>315.0000000043</dAngle>
+    <dDist>2.8284271247</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>326.3099324758</dAngle>
+    <dDist>3.6055512755</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>338.1985905137</dAngle>
+    <dDist>5.3851648071</dDist>
+    <iNumSee>196</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>344.0546040989</dAngle>
+    <dDist>7.2801098893</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>19</iPosX>
+    <iPosY>15</iPosY>
+    <dAngle>345.9637565332</dAngle>
+    <dDist>8.2462112512</dDist>
+    <iNumSee>188</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>4</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>203.1985905095</dAngle>
+    <dDist>7.6157731059</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>206.5650511778</dAngle>
+    <dDist>6.7082039325</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>216.8698976473</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>191</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>225.0000000015</dAngle>
+    <dDist>4.2426406871</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>251.5650511793</dAngle>
+    <dDist>3.1622776602</dDist>
+    <iNumSee>192</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>270.0000000029</dAngle>
+    <dDist>3.0</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>288.4349488265</dAngle>
+    <dDist>3.1622776602</dDist>
+    <iNumSee>195</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>323.1301023585</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>188</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>16</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>329.0362434711</dAngle>
+    <dDist>5.8309518948</dDist>
+    <iNumSee>189</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>17</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>333.4349488222</dAngle>
+    <dDist>6.7082039325</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>336.8014094906</dAngle>
+    <dDist>7.6157731059</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>19</iPosX>
+    <iPosY>16</iPosY>
+    <dAngle>339.4439547839</dAngle>
+    <dDist>8.5440037453</dDist>
+    <iNumSee>194</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>1</iPosX>
     <iPosY>17</iPosY>
-    <dAngle>8.7461622573</dAngle>
-    <dDist>13.152946438</dDist>
-    <iNumSee>231</iNumSee>
+    <dAngle>201.8014094863</dAngle>
+    <dDist>10.7703296143</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>3</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>206.5650511778</dAngle>
+    <dDist>8.94427191</dDist>
+    <iNumSee>202</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>5</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>213.6900675243</dAngle>
+    <dDist>7.2111025509</dDist>
+    <iNumSee>208</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>6</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>218.6598082539</dAngle>
+    <dDist>6.4031242374</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>7</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>225.0000000015</dAngle>
+    <dDist>5.6568542495</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>8</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>233.1301023556</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>202</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>243.4349488251</dAngle>
+    <dDist>4.472135955</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>10</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>255.9637565304</dAngle>
+    <dDist>4.1231056256</dDist>
+    <iNumSee>203</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>11</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>270.0000000029</dAngle>
+    <dDist>4.0</dDist>
+    <iNumSee>205</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>12</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>284.0362434697</dAngle>
+    <dDist>4.1231056256</dDist>
+    <iNumSee>198</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>13</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>296.5650511807</dAngle>
+    <dDist>4.472135955</dDist>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>14</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>306.8698976444</dAngle>
+    <dDist>5.0</dDist>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>315.0000000043</dAngle>
+    <dDist>5.6568542495</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>17</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>326.3099324758</dAngle>
+    <dDist>7.2111025509</dDist>
+    <iNumSee>200</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>330.2551187049</dAngle>
+    <dDist>8.0622577483</dDist>
+    <iNumSee>193</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>19</iPosX>
+    <iPosY>17</iPosY>
+    <dAngle>333.4349488222</dAngle>
+    <dDist>8.94427191</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>0</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>174.8055710921</dAngle>
-    <dDist>11.0453610172</dDist>
-    <iNumSee>234</iNumSee>
+    <dAngle>204.4439547796</dAngle>
+    <dDist>12.0830459736</dDist>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>1</iPosX>
+    <iPosX>2</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>174.2894068618</dAngle>
-    <dDist>10.0498756211</dDist>
-    <iNumSee>227</iNumSee>
+    <dAngle>209.0546041004</dAngle>
+    <dDist>10.295630141</dDist>
+    <iNumSee>201</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>3</iPosX>
+    <iPosX>4</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>172.8749836535</dAngle>
-    <dDist>8.0622577483</dDist>
-    <iNumSee>228</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>18</iPosY>
-    <dAngle>170.5376777925</dAngle>
-    <dDist>6.0827625303</dDist>
-    <iNumSee>234</iNumSee>
+    <dAngle>215.5376777883</dAngle>
+    <dDist>8.602325267</dDist>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>6</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>168.6900675285</dAngle>
-    <dDist>5.0990195136</dDist>
-    <iNumSee>235</iNumSee>
+    <dAngle>225.0000000015</dAngle>
+    <dDist>7.0710678119</dDist>
+    <iNumSee>195</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>7</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>165.9637565332</dAngle>
-    <dDist>4.1231056256</dDist>
-    <iNumSee>235</iNumSee>
+    <dAngle>231.3401917433</dAngle>
+    <dDist>6.4031242374</dDist>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>8</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>161.5650511763</dAngle>
-    <dDist>3.1622776602</dDist>
-    <iNumSee>230</iNumSee>
+    <dAngle>239.0362434683</dAngle>
+    <dDist>5.8309518948</dDist>
+    <iNumSee>199</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>9</iPosX>
+    <iPosY>18</iPosY>
+    <dAngle>248.1985905109</dAngle>
+    <dDist>5.3851648071</dDist>
+    <iNumSee>192</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>134.9999999985</dAngle>
-    <dDist>1.4142135624</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>18</iPosY>
-    <dAngle>89.9999999971</dAngle>
-    <dDist>1.0</dDist>
-    <iNumSee>237</iNumSee>
+    <dAngle>258.6900675257</dAngle>
+    <dDist>5.0990195136</dDist>
+    <iNumSee>189</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>12</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>44.9999999957</dAngle>
-    <dDist>1.4142135624</dDist>
-    <iNumSee>238</iNumSee>
+    <dAngle>281.3099324744</dAngle>
+    <dDist>5.0990195136</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>17</iPosX>
+    <iPosX>13</iPosX>
     <iPosY>18</iPosY>
-    <dAngle>9.4623222075</dAngle>
-    <dDist>6.0827625303</dDist>
-    <iNumSee>227</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>18</iPosY>
-    <dAngle>8.1301023541</dAngle>
-    <dDist>7.0710678119</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>18</iPosY>
-    <dAngle>7.1250163464</dAngle>
-    <dDist>8.0622577483</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>18</iPosY>
-    <dAngle>5.1944289078</dAngle>
-    <dDist>11.0453610172</dDist>
-    <iNumSee>227</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>18</iPosY>
-    <dAngle>4.7636416858</dAngle>
-    <dDist>12.0415945788</dDist>
-    <iNumSee>228</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>179.9999999999</dAngle>
-    <dDist>11.0</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>3</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>179.9999999999</dAngle>
-    <dDist>8.0</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>179.9999999999</dAngle>
-    <dDist>7.0</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>179.9999999999</dAngle>
-    <dDist>5.0</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>999.0</dAngle>
-    <dDist>0.0</dDist>
-    <iNumSee>506</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>0.0</dAngle>
-    <dDist>3.0</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>0.0</dAngle>
-    <dDist>6.0</dDist>
-    <iNumSee>243</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>0.0</dAngle>
-    <dDist>8.0</dDist>
-    <iNumSee>244</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>0.0</dAngle>
-    <dDist>11.0</dDist>
-    <iNumSee>243</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>19</iPosY>
-    <dAngle>0.0</dAngle>
-    <dDist>13.0</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>185.1944289079</dAngle>
-    <dDist>11.0453610172</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>185.7105931382</dAngle>
-    <dDist>10.0498756211</dDist>
-    <iNumSee>228</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>188.1301023542</dAngle>
-    <dDist>7.0710678119</dDist>
-    <iNumSee>227</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>7</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>194.0362434668</dAngle>
-    <dDist>4.1231056256</dDist>
-    <iNumSee>230</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>270.0000000029</dAngle>
-    <dDist>1.0</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>341.5650511821</dAngle>
-    <dDist>3.1622776602</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>15</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>345.9637565332</dAngle>
-    <dDist>4.1231056256</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>351.8698976459</dAngle>
-    <dDist>7.0710678119</dDist>
-    <iNumSee>226</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>352.8749836536</dAngle>
-    <dDist>8.0622577483</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>353.6598082581</dAngle>
-    <dDist>9.0553851381</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>354.2894068676</dAngle>
-    <dDist>10.0498756211</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>20</iPosY>
-    <dAngle>355.6012946489</dAngle>
-    <dDist>13.0384048104</dDist>
-    <iNumSee>226</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>4</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>195.9453959011</dAngle>
-    <dDist>7.2801098893</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>243.4349488251</dAngle>
-    <dDist>2.2360679775</dDist>
-    <iNumSee>237</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>270.0000000029</dAngle>
-    <dDist>2.0</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>326.3099324758</dAngle>
-    <dDist>3.6055512755</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>16</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>338.1985905137</dAngle>
+    <dAngle>291.8014094892</dAngle>
     <dDist>5.3851648071</dDist>
-    <iNumSee>227</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>341.5650511821</dAngle>
-    <dDist>6.3245553203</dDist>
-    <iNumSee>240</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>19</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>345.9637565332</dAngle>
-    <dDist>8.2462112512</dDist>
-    <iNumSee>242</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>350.5376777925</dAngle>
-    <dDist>12.1655250606</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>21</iPosY>
-    <dAngle>351.2538377427</dAngle>
-    <dDist>13.152946438</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>1</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>196.6992442301</dAngle>
-    <dDist>10.4403065089</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>2</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>198.4349488237</dAngle>
-    <dDist>9.4868329805</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>5</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>206.5650511778</dAngle>
-    <dDist>6.7082039325</dDist>
-    <iNumSee>243</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>7</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>216.8698976473</dAngle>
-    <dDist>5.0</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>10</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>251.5650511793</dAngle>
-    <dDist>3.1622776602</dDist>
-    <iNumSee>235</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>11</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>270.0000000029</dAngle>
-    <dDist>3.0</dDist>
-    <iNumSee>237</iNumSee>
+    <iNumSee>187</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>14</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>315.0000000043</dAngle>
-    <dDist>4.2426406871</dDist>
-    <iNumSee>231</iNumSee>
+    <iPosY>18</iPosY>
+    <dAngle>300.9637565318</dAngle>
+    <dDist>5.8309518948</dDist>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>15</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>323.1301023585</dAngle>
-    <dDist>5.0</dDist>
-    <iNumSee>225</iNumSee>
+    <iPosY>18</iPosY>
+    <dAngle>308.6598082567</dAngle>
+    <dDist>6.4031242374</dDist>
+    <iNumSee>188</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>17</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>333.4349488222</dAngle>
-    <dDist>6.7082039325</dDist>
-    <iNumSee>235</iNumSee>
+    <iPosY>18</iPosY>
+    <dAngle>320.1944289122</dAngle>
+    <dDist>7.8102496759</dDist>
+    <iNumSee>196</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>341.5650511821</dAngle>
-    <dDist>9.4868329805</dDist>
-    <iNumSee>237</iNumSee>
+    <iPosX>18</iPosX>
+    <iPosY>18</iPosY>
+    <dAngle>324.4623222118</dAngle>
+    <dDist>8.602325267</dDist>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>343.30075577</dAngle>
-    <dDist>10.4403065089</dDist>
-    <iNumSee>229</iNumSee>
+    <iPosX>19</iPosX>
+    <iPosY>18</iPosY>
+    <dAngle>327.9946167935</dAngle>
+    <dDist>9.4339811321</dDist>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>22</iPosY>
-    <dAngle>347.0053832108</dAngle>
-    <dDist>13.3416640641</dDist>
-    <iNumSee>217</iNumSee>
+    <iPosX>0</iPosX>
+    <iPosY>19</iPosY>
+    <dAngle>208.6104596622</dAngle>
+    <dDist>12.5299640861</dDist>
+    <iNumSee>202</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>1</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>201.8014094863</dAngle>
-    <dDist>10.7703296143</dDist>
-    <iNumSee>241</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>210.963756529</dAngle>
+    <dDist>11.6619037897</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>2</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>203.9624889708</dAngle>
-    <dDist>9.8488578018</dDist>
-    <iNumSee>247</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>213.6900675243</dAngle>
+    <dDist>10.8166538264</dDist>
+    <iNumSee>203</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>4</iPosX>
+    <iPosY>19</iPosY>
+    <dAngle>220.6012946446</dAngle>
+    <dDist>9.2195444573</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>5</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>213.6900675243</dAngle>
-    <dDist>7.2111025509</dDist>
-    <iNumSee>249</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>218.6598082539</dAngle>
-    <dDist>6.4031242374</dDist>
-    <iNumSee>240</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>225.0000000015</dAngle>
+    <dDist>8.4852813742</dDist>
+    <iNumSee>201</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>7</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>225.0000000015</dAngle>
-    <dDist>5.6568542495</dDist>
-    <iNumSee>239</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>236.309932473</dAngle>
+    <dDist>7.2111025509</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>8</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>233.1301023556</dAngle>
-    <dDist>5.0</dDist>
-    <iNumSee>241</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>9</iPosX>
-    <iPosY>23</iPosY>
+    <iPosY>19</iPosY>
     <dAngle>243.4349488251</dAngle>
-    <dDist>4.472135955</dDist>
-    <iNumSee>240</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>306.8698976444</dAngle>
-    <dDist>5.0</dDist>
-    <iNumSee>246</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>15</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>315.0000000043</dAngle>
-    <dDist>5.6568542495</dDist>
-    <iNumSee>244</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>16</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>321.3401917462</dAngle>
-    <dDist>6.4031242374</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>326.3099324758</dAngle>
-    <dDist>7.2111025509</dDist>
-    <iNumSee>247</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>18</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>330.2551187049</dAngle>
-    <dDist>8.0622577483</dDist>
-    <iNumSee>236</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>20</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>336.0375110293</dAngle>
-    <dDist>9.8488578018</dDist>
-    <iNumSee>238</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>22</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>340.0168934823</dAngle>
-    <dDist>11.7046999107</dDist>
-    <iNumSee>234</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>23</iPosY>
-    <dAngle>342.8972710354</dAngle>
-    <dDist>13.6014705087</dDist>
-    <iNumSee>233</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>0</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>204.4439547796</dAngle>
-    <dDist>12.0830459736</dDist>
-    <iNumSee>231</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>3</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>212.0053832066</dAngle>
-    <dDist>9.4339811321</dDist>
-    <iNumSee>239</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>6</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>225.0000000015</dAngle>
-    <dDist>7.0710678119</dDist>
-    <iNumSee>239</iNumSee>
+    <dDist>6.7082039325</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>9</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>248.1985905109</dAngle>
-    <dDist>5.3851648071</dDist>
-    <iNumSee>235</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>251.5650511793</dAngle>
+    <dDist>6.3245553203</dDist>
+    <iNumSee>193</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>10</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>258.6900675257</dAngle>
-    <dDist>5.0990195136</dDist>
-    <iNumSee>229</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>260.5376777897</dAngle>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>197</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>14</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>300.9637565318</dAngle>
-    <dDist>5.8309518948</dDist>
-    <iNumSee>227</iNumSee>
+    <iPosX>12</iPosX>
+    <iPosY>19</iPosY>
+    <dAngle>279.4623222104</dAngle>
+    <dDist>6.0827625303</dDist>
+    <iNumSee>199</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
-    <iPosX>17</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>320.1944289122</dAngle>
-    <dDist>7.8102496759</dDist>
-    <iNumSee>230</iNumSee>
+    <iPosX>13</iPosX>
+    <iPosY>19</iPosY>
+    <dAngle>288.4349488265</dAngle>
+    <dDist>6.3245553203</dDist>
+    <iNumSee>201</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>15</iPosX>
+    <iPosY>19</iPosY>
+    <dAngle>303.6900675271</dAngle>
+    <dDist>7.2111025509</dDist>
+    <iNumSee>197</iNumSee>
+  </ttAsteroidRow>
+  <ttAsteroidRow>
+    <iPosX>18</iPosX>
+    <iPosY>19</iPosY>
+    <dAngle>319.3987053554</dAngle>
+    <dDist>9.2195444573</dDist>
+    <iNumSee>200</iNumSee>
   </ttAsteroidRow>
   <ttAsteroidRow>
     <iPosX>19</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>327.9946167935</dAngle>
-    <dDist>9.4339811321</dDist>
-    <iNumSee>229</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>21</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>333.4349488222</dAngle>
-    <dDist>11.1803398875</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>23</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>337.380135057</dAngle>
-    <dDist>13.0</dDist>
-    <iNumSee>232</iNumSee>
-  </ttAsteroidRow>
-  <ttAsteroidRow>
-    <iPosX>24</iPosX>
-    <iPosY>24</iPosY>
-    <dAngle>338.962488975</dAngle>
-    <dDist>13.9283882772</dDist>
-    <iNumSee>234</iNumSee>
+    <iPosY>19</iPosY>
+    <dAngle>323.1301023585</dAngle>
+    <dDist>10.0</dDist>
+    <iNumSee>190</iNumSee>
   </ttAsteroidRow>
 </ttAsteroid>

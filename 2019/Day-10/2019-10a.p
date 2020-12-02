@@ -27,9 +27,6 @@ END.
 
 FOR EACH ttAsteroid BREAK BY ttAsteroid.iNumSee DESCENDING:
   MESSAGE SUBSTITUTE('Part 1: best is &1,&2 with &3 in sight', ttAsteroid.iPosX, ttAsteroid.iPosY, ttAsteroid.iNumSee) VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
-
-  /* For part 2, set angles */
-  RUN calcAngles(BUFFER ttAsteroid).
   LEAVE.
 END.
 
