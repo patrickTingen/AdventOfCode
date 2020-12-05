@@ -1,28 +1,18 @@
 /* AoC 2020 day 5a + b
 */
-FUNCTION Bin2Dec RETURNS INTEGER ( cBin AS CHARACTER ).
-  DEFINE VARIABLE iValue  AS INTEGER NO-UNDO.
-  DEFINE VARIABLE iPos    AS INTEGER NO-UNDO.
-  DEFINE VARIABLE iLength AS INTEGER NO-UNDO.
-  
-  iLength = LENGTH(cBin).
-  DO iPos = LENGTH(cBin) TO 1 BY -1:
-    IF SUBSTRING(cBin,iPos,1) = "1" THEN iValue = iValue + EXP(2,(iLength - iPos)).
-  END.
-  RETURN iValue.
-END FUNCTION.
-
 DEFINE VARIABLE cLine  AS CHARACTER NO-UNDO.
 DEFINE VARIABLE iMax   AS INTEGER   NO-UNDO.
 DEFINE VARIABLE lSeat  AS LOGICAL   NO-UNDO EXTENT 1024.
 DEFINE VARIABLE i      AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iValue AS INTEGER   NO-UNDO.
 
 INPUT FROM day-05.dat.
 REPEAT:
   IMPORT cLine.
-  cLine = REPLACE(REPLACE(REPLACE(REPLACE(cLine,'F','0'),'B','1'),'R','1'),'L','0').
-  iMax = MAXIMUM(iMax,bin2dec(cLine)).
-  lSeat[bin2dec(cLine)] = TRUE.
+  cLine  = REPLACE(REPLACE(REPLACE(REPLACE(cLine,'F','0'),'B','1'),'R','1'),'L','0').
+  iValue = System.Convert:ToInt32(cLine,2).
+  iMax   = MAXIMUM(iMax,iValue).
+  lSeat[iValue] = TRUE.
 END.
 INPUT CLOSE.
 
