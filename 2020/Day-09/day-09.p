@@ -1,4 +1,4 @@
-/* AoC 2020 - day 9
+/* AoC 2020 - day 9 with tt 
 */
 DEFINE TEMP-TABLE tt NO-UNDO
   FIELD iNr  AS INTEGER
@@ -38,18 +38,22 @@ REPEAT:
 
 END.
 INPUT CLOSE. 
-
+  
 /* Part 2, find series of nrs that add up to result from step 1 */
 ETIME(YES).
+
+#Main:
 FOR EACH tt:
   dSum = 0.
   dMin = tt.dVal.
   dMax = tt.dVal.
+
   FOR EACH b2 WHERE b2.iNr >= tt.iNr:
     dSum = dSum + b2.dVal.
     dMin = MINIMUM(dMin, b2.dVal).
     dMax = MAXIMUM(dMax, b2.dVal).
 
+    IF dSum > dInvalid THEN NEXT #Main.
     IF dSum = dInvalid AND b2.iNr > tt.iNr THEN 
     DO:
       MESSAGE 'Part 2:' dMin + dMax SKIP 'Time:' ETIME VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
