@@ -1,17 +1,18 @@
 /* AoC 2020 day 10
 */
-DEFINE VARIABLE iOne   AS INTEGER NO-UNDO.
-DEFINE VARIABLE iThree AS INTEGER NO-UNDO.
-DEFINE VARIABLE iPrev  AS INTEGER NO-UNDO.
-DEFINE VARIABLE i      AS INTEGER NO-UNDO.
-DEFINE VARIABLE jolts  AS INTEGER NO-UNDO EXTENT.
+DEFINE VARIABLE iOne   AS INT64 NO-UNDO.
+DEFINE VARIABLE iThree AS INT64 NO-UNDO.
+DEFINE VARIABLE iPrev  AS INT64 NO-UNDO.
+DEFINE VARIABLE i      AS INT64 NO-UNDO.
+DEFINE VARIABLE iJolts AS INT64 NO-UNDO EXTENT.
+DEFINE VARIABLE iCache AS INT64 NO-UNDO EXTENT.
 
 DEFINE TEMP-TABLE tt NO-UNDO
   FIELD j AS INTEGER
   INDEX iPrim j.
 
-ETIME(YES).
-INPUT FROM "test2.txt".
+/* Import for sorting */
+INPUT FROM "input.txt".
 REPEAT:
   i = i + 1.
   CREATE tt.
@@ -19,41 +20,43 @@ REPEAT:
 END.
 INPUT CLOSE. 
 
-EXTENT(jolts) = i + 1. /* one for own device */
+EXTENT(iJolts) = i + 1. /* one for own device */
 i = 0.
 FOR EACH tt:
   i = i + 1.
-  jolts[i] = tt.j.
+  iJolts[i] = tt.j.
 END.
-jolts[EXTENT(jolts)] = jolts[EXTENT(jolts) - 1] + 3.
+iJolts[EXTENT(iJolts)] = iJolts[EXTENT(iJolts) - 1] + 3.
 
-DO i = 1 TO EXTENT(jolts):
-  IF (jolts[i] - iPrev) = 1 THEN iOne = iOne + 1.
-  IF (jolts[i] - iPrev) = 3 THEN iThree = iThree + 1.
-  iPrev = jolts[i].
+DO i = 1 TO EXTENT(iJolts):
+  IF (iJolts[i] - iPrev) = 1 THEN iOne = iOne + 1.
+  IF (iJolts[i] - iPrev) = 3 THEN iThree = iThree + 1.
+  iPrev = iJolts[i].
 END.
 
-MESSAGE 'Part 1:' iOne * iThree SKIP 
-        'Time:' ETIME VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+MESSAGE 'Part 1:' iOne * iThree VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
 
-FUNCTION getArrangements RETURNS INTEGER (a AS INTEGER):
-  DEFINE VARIABLE j AS INTEGER NO-UNDO.
-  DEFINE VARIABLE r AS INTEGER NO-UNDO.
+/* Part 2 
+*/
+EXTENT(iCache) = EXTENT(iJolts).
 
-  IF a >= EXTENT(jolts) THEN RETURN 1.
+FUNCTION getCombi RETURNS INT64 (a AS INT64):
+  IF iCache[a] <> 0 THEN RETURN iCache[a].
 
-  j = jolts[a].
-  r = getArrangements(a + 1).
+  IF a >= EXTENT(iJolts) THEN RETURN 1.
+  iCache[a] = getCombi(a + 1).
 
-  IF a + 2 < EXTENT(jolts) AND jolts[a + 2] - j <= 3 THEN
-    r = r + getArrangements(a + 2).
+  IF a + 2 < EXTENT(iJolts) AND iJolts[a + 2] - iJolts[a] <= 3 THEN
+    iCache[a] = iCache[a] + getCombi(a + 2).
 
-  IF a + 3 < EXTENT(jolts) AND jolts[a + 3] - j <= 3 THEN 
-    r = r + getArrangements(a + 3).
+  IF a + 3 < EXTENT(iJolts) AND iJolts[a + 3] - iJolts[a] <= 3 THEN 
+    iCache[a] = iCache[a] + getCombi(a + 3).
 
-  RETURN r.
+  RETURN iCache[a].
 END FUNCTION.
 
-ETIME(YES).
-MESSAGE 'Part 2:' getArrangements(1) SKIP 
-        'Time:' ETIME VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+MESSAGE 'Part 2:' getCombi(1) /* 3947645370368 */
+  VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+
+
+
