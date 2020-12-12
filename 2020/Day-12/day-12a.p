@@ -1,4 +1,4 @@
-/* AoC 2020 day 12 
+/* AoC 2020 day 12 part 1
  */ 
 DEFINE VARIABLE cDir   AS CHARACTER   NO-UNDO INITIAL 'E'.
 DEFINE VARIABLE iStep  AS INTEGER     NO-UNDO.
@@ -8,6 +8,7 @@ DEFINE VARIABLE iEast  AS INTEGER     NO-UNDO.
 DEFINE VARIABLE cMove  AS CHARACTER   NO-UNDO.
 DEFINE VARIABLE i      AS INTEGER     NO-UNDO.
 
+ETIME(YES).
 INPUT FROM "input.txt".
 
 REPEAT:
@@ -51,6 +52,16 @@ REPEAT:
      END.
    END CASE.
 END.
+INPUT CLOSE.
 
-MESSAGE ABS(iEast) + ABS(iNorth)
+MESSAGE ABS(iEast) + ABS(iNorth) SKIP ETIME
   VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+
+/* ---------------------------  */
+/* Information                  */
+/* ---------------------------  */
+/* 1186                         */
+/* 8                            */
+/* ---------------------------  */
+/* OK   Help                    */
+/* ---------------------------  */
