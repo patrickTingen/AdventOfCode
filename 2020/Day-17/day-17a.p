@@ -1,4 +1,4 @@
-/* AoC 2020 day 17 
+/* AoC 2020 day 17a
  */ 
 DEFINE TEMP-TABLE ttCube NO-UNDO
   FIELD xx AS INTEGER
@@ -22,10 +22,10 @@ DEFINE VARIABLE iMaxY  AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iMinZ  AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iMaxZ  AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iCycle AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iCubes AS INTEGER   NO-UNDO.
 
-OS-DELETE "c:\temp\ttCube.txt".
-
-INPUT FROM "test.txt".
+ETIME(YES).
+INPUT FROM "input.txt".
 REPEAT:
   IMPORT cLine.
   iY = iY + 1.
@@ -51,14 +51,30 @@ END.
 INPUT CLOSE. 
 
 RUN expandGrid.
-RUN logCubes.
-
 DO iCycle = 1 TO 6:
+  HIDE MESSAGE NO-PAUSE.
+  MESSAGE iCycle.
+  PROCESS EVENTS.
+
   RUN expandGrid.
   RUN countNeighbours.
   RUN doCycle.
-  RUN logCubes.
+  /* RUN logCubes. */
 END.
+
+FOR EACH bCube:
+  iCubes = iCubes + bCube.ii.
+END.
+MESSAGE 'Part 1:' iCubes SKIP 'Time: ' ETIME VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+
+/* --------------------------- */
+/* Information                 */
+/* --------------------------- */
+/* Part 1: 298                 */
+/* Time:  3871                 */
+/* --------------------------- */
+/* OK                          */
+/* --------------------------- */
 
 
 PROCEDURE countNeighbours:
@@ -66,15 +82,15 @@ PROCEDURE countNeighbours:
   DEFINE VARIABLE iY AS INTEGER NO-UNDO.
   DEFINE VARIABLE iZ AS INTEGER NO-UNDO.
   DEFINE BUFFER bCube  FOR ttCube. 
-  DEFINE BUFFER bCube2 FOR ttCube. 
 
   FOR EACH bCube:
+    bCube.nn = 0.
     DO iX = -1 TO 1:
       DO iY = -1 TO 1:
         DO iZ = -1 TO 1:
           IF iX = 0 AND iY = 0 AND iZ = 0 THEN NEXT. 
-          FIND bCube2 WHERE bCube2.xx = bCube.xx + iX AND bCube2.yy = bCube.yy + iY AND bCube2.zz = bCube.zz + iZ NO-ERROR.
-          IF AVAILABLE bCube2 THEN bCube.nn = bCube.nn + bCube2.ii.
+          IF CAN-FIND(ttCube WHERE ttCube.xx = bCube.xx + iX AND ttCube.yy = bCube.yy + iY AND ttCube.zz = bCube.zz + iZ AND ttCube.ii = 1) THEN 
+            bCube.nn = bCube.nn + 1.
         END.
       END.
     END.
@@ -117,9 +133,6 @@ END PROCEDURE. /* expandGrid */
 
 
 PROCEDURE doCycle:
-  DEFINE VARIABLE iX AS INTEGER NO-UNDO.
-  DEFINE VARIABLE iY AS INTEGER NO-UNDO.
-  DEFINE VARIABLE iZ AS INTEGER NO-UNDO.
   DEFINE BUFFER bCube FOR ttCube.
 
   FOR EACH bCube:
@@ -137,6 +150,8 @@ END PROCEDURE. /* doCycle */
 
 
 PROCEDURE logCubes:
+  /* For fun & debugging, to see the cubes
+  */
   DEFINE BUFFER bCube FOR ttCube. 
 
   DEFINE VARIABLE cLine AS CHARACTER   NO-UNDO.
@@ -154,12 +169,3 @@ PROCEDURE logCubes:
   OUTPUT CLOSE. 
 END PROCEDURE. 
 
-
-PROCEDURE dumpCubes.
-  DEFINE BUFFER bCube FOR ttCube. 
-  OUTPUT TO c:\temp\dump.txt.
-  FOR EACH bCube NO-LOCK:
-    DISPLAY bCube WITH WIDTH 300 STREAM-IO.
-  END.
-  OUTPUT CLOSE. 
-END PROCEDURE. 
