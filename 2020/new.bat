@@ -21,4 +21,6 @@ echo /* AoC 2020 day %1 > day-%1.p
 echo  */ >> day-%1.p
 echo. > day-%1.txt
 echo. > test.txt
+:: open in browser
+start https://adventofcode.com/2020/day/%daynr%
 goto :EOF
