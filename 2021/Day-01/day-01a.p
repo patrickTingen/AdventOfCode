@@ -1,0 +1,15 @@
+/* AoC 2021 day 01a
+ */ 
+DEFINE VARIABLE iNumber   AS INTEGER NO-UNDO. 
+DEFINE VARIABLE iPrevious AS INTEGER NO-UNDO INITIAL ?.
+DEFINE VARIABLE iCount    AS INTEGER NO-UNDO.
+
+INPUT FROM data.txt.
+REPEAT:
+  IMPORT iNumber.
+  IF iNumber > iPrevious AND iPrevious <> ? THEN iCount = iCount + 1.
+  iPrevious = iNumber.
+END.
+INPUT CLOSE.
+
+MESSAGE 'Part 1:' iCount VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
