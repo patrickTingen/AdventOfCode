@@ -12,8 +12,7 @@ END.
 INPUT CLOSE.
 
 DO i = 1 TO 1997:
-  IF  (iNumber[i + 1] + iNumber[i + 2] + iNumber[i + 3])
-    > (iNumber[i + 0] + iNumber[i + 1] + iNumber[i + 2]) THEN iCount = iCount + 1.
+  iCount = iCount + INT(iNumber[i + 3] > iNumber[i]).
 END.
 
 MESSAGE 'Part 2:' iCount VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
