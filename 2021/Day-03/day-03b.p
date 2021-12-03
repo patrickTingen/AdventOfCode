@@ -1,5 +1,6 @@
 /* AoC 2021 day 03b
  */ 
+USING System.*.
 
 DEFINE VARIABLE cData     AS LONGCHAR  NO-UNDO.
 DEFINE VARIABLE i         AS INTEGER   NO-UNDO.
@@ -15,19 +16,6 @@ DEFINE TEMP-TABLE ttData
   FIELD lSel    AS LOGICAL 
   FIELD cString AS CHARACTER
   FIELD cBit    AS CHARACTER EXTENT 12.
-
-FUNCTION Bin2Dec RETURNS DECIMAL (cBin AS CHARACTER).
-  DEFINE VARIABLE dVal AS DECIMAL NO-UNDO.
-  DEFINE VARIABLE i    AS INTEGER NO-UNDO.
-  DEFINE VARIABLE iLen AS INTEGER NO-UNDO.
-
-  iLen = LENGTH(cBin).
-  DO i = iLen TO 1 BY -1:
-    IF SUBSTRING(cBin,i,1) = "1" THEN dVal = dVal + EXP(2,(iLen - i)).
-  END.
-
-  RETURN dVal.
-END FUNCTION.
 
 /* Init */
 COPY-LOB FILE "data.txt" TO cData. 
@@ -83,9 +71,9 @@ DO j = 1 TO 2:
 END.
   
 MESSAGE
-  "Scrubber~t:" cScrubber '=' Bin2Dec(cScrubber) SKIP
-  "Oxygen~t:"   cOxygen '=' Bin2Dec(cOxygen) SKIP
-  "Answer~t:"   Bin2Dec(cScrubber) * Bin2Dec(cOxygen)
+  "Scrubber~t:" cScrubber '=' Convert:ToInt64(cScrubber,2) SKIP
+  "Oxygen~t:"   cOxygen   '=' Convert:ToInt64(cOxygen,2) SKIP
+  "Answer~t:"   Convert:ToInt64(cScrubber,2) * Convert:ToInt64(cOxygen,2)
   VIEW-AS ALERT-BOX INFO BUTTONS OK.
 
 
