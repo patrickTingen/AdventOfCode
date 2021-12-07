@@ -1,0 +1,32 @@
+/* AoC 2021 day 07a
+ */ 
+DEFINE VARIABLE iCrab    AS INTEGER   NO-UNDO EXTENT.
+DEFINE VARIABLE cData    AS LONGCHAR  NO-UNDO.
+DEFINE VARIABLE i        AS INTEGER   NO-UNDO.
+DEFINE VARIABLE j        AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iMin     AS INTEGER   NO-UNDO INITIAL 9999.
+DEFINE VARIABLE iMax     AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iMinFuel AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iFuel    AS INTEGER   NO-UNDO.
+
+/* Read data */
+COPY-LOB FILE "c:\Data\DropBox\AdventOfCode\2021\Day-07\data.txt" TO cData.
+EXTENT(iCrab) = NUM-ENTRIES(cData).
+DO i = 1 TO NUM-ENTRIES(cData):
+  iCrab[i] = INTEGER(ENTRY(i,cData)).
+  iMin = MINIMUM(iMin,iCrab[i]).
+  iMax = MAXIMUM(iMin,iCrab[i]).
+END.
+
+iMinFuel = 999999.
+DO i = iMin TO iMax:
+  
+  iFuel = 0.
+  DO j = 1 TO EXTENT(iCrab):
+    iFuel = iFuel + ABS(i - iCrab[j]).
+  END.
+
+  iMinFuel = MIN(iMinFuel,iFuel).
+END.
+
+MESSAGE iMinFuel VIEW-AS ALERT-BOX INFORMATION BUTTONS OK. /* 355764 */
