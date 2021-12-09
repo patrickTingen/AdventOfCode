@@ -10,7 +10,7 @@ DEFINE VARIABLE iMinFuel AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iFuel    AS INTEGER   NO-UNDO.
 
 /* Read data */
-COPY-LOB FILE "c:\Data\DropBox\AdventOfCode\2021\Day-07\data.txt" TO cData.
+COPY-LOB FILE "data.txt" TO cData.
 EXTENT(iCrab) = NUM-ENTRIES(cData).
 DO i = 1 TO NUM-ENTRIES(cData):
   iCrab[i] = INTEGER(ENTRY(i,cData)).
