@@ -18,11 +18,17 @@ set ready=yes
 set Folder=Day-%1
 md %Folder%
 cd %Folder%
-echo /* AoC %year% day %1 > day-%1.p
-echo  */ >> day-%1.p
+
+echo /* AoC %year% day %1a > day-%1a.p
+echo  */ >> day-%1a.p
+
+echo /* AoC %year% day %1b > day-%1b.p
+echo  */ >> day-%1b.p
+
 echo. > day-%1.txt
 echo. > test.txt
 echo. > data.txt
+
 :: open in browser
 start https://adventofcode.com/%year%/day/%daynr%
 goto :EOF
