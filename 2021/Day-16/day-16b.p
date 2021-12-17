@@ -114,7 +114,7 @@ PROCEDURE parsePacket:
       END. /* 1 */
     END CASE.    
 
-    PUT UNFORMATTED FILL(" ", giLevel * 2) "Values:" cValues SKIP.
+    /* PUT UNFORMATTED FILL(" ", giLevel * 2) "Values:" cValues SKIP.    */
     
     CASE iType:
       WHEN 0 THEN /* sum */
@@ -150,7 +150,8 @@ PROCEDURE parsePacket:
         
     END CASE.
     
-    PUT UNFORMATTED FILL(" ", giLevel * 2) "Result:" piValue SKIP.
+    PUT UNFORMATTED FILL(" ", giLevel * 2) 
+      ENTRY(iType + 1, "Sum,Prd,Min,Max,Lit,GT,LT,EQ") ": " cValues " --> " piValue SKIP.
   END. /* operator */
 
   giLevel = giLevel - 1.

@@ -5,106 +5,87 @@ Type:0 Sum
     Type:6 LT
       Type:4 Lit = 3619
       Type:4 Lit = 3619
-      Values:3619,3619
-      Result:0
-    Values:52353675,0
-    Result:0
+      LT: 3619,3619 --> 0
+    Prd: 52353675,0 --> 0
   Type:1 Prd
     Type:5 GT
       Type:0 Sum
         Type:4 Lit = 4
         Type:4 Lit = 11
         Type:4 Lit = 2
-        Values:4,11,2
-        Result:17
+        Sum: 4,11,2 --> 17
       Type:0 Sum
         Type:4 Lit = 12
         Type:4 Lit = 4
         Type:4 Lit = 4
-        Values:12,4,4
-        Result:20
-      Values:17,20
-      Result:0
+        Sum: 12,4,4 --> 20
+      GT: 17,20 --> 0
     Type:4 Lit = 3330
-    Values:0,3330
-    Result:0
+    Prd: 0,3330 --> 0
   Type:2 Min
     Type:4 Lit = 78
     Type:4 Lit = 12
     Type:4 Lit = 234
-    Values:78,12,234
-    Result:12
+    Min: 78,12,234 --> 12
   Type:1 Prd
     Type:4 Lit = 7
     Type:6 LT
       Type:4 Lit = 84989661
       Type:4 Lit = 5
-      Values:84989661,5
-      Result:0
-    Values:7,0
-    Result:0
+      LT: 84989661,5 --> 0
+    Prd: 7,0 --> 0
   Type:1 Prd
     Type:0 Sum
       Type:4 Lit = 9
       Type:4 Lit = 9
       Type:4 Lit = 8
-      Values:9,9,8
-      Result:26
+      Sum: 9,9,8 --> 26
     Type:0 Sum
       Type:4 Lit = 12
       Type:4 Lit = 8
       Type:4 Lit = 15
-      Values:12,8,15
-      Result:35
+      Sum: 12,8,15 --> 35
     Type:0 Sum
       Type:4 Lit = 10
       Type:4 Lit = 2
       Type:4 Lit = 3
-      Values:10,2,3
-      Result:15
-    Values:26,35,15
-    Result:13650
+      Sum: 10,2,3 --> 15
+    Prd: 26,35,15 --> 13650
   Type:4 Lit = 1875664839
   Type:4 Lit = 14
   Type:0 Sum
     Type:4 Lit = 0
     Type:4 Lit = 22
     Type:4 Lit = -1699209514
-    Values:0,22,-1699209514
-    Result:-1699209492
+    Sum: 0,22,-1699209514 --> -1699209492
   Type:4 Lit = 84
   Type:1 Prd
     Type:4 Lit = 912
     Type:5 GT
       Type:4 Lit = 67
       Type:4 Lit = 141102751
-      Values:67,141102751
-      Result:0
-    Values:912,0
-    Result:0
+      GT: 67,141102751 --> 0
+    Prd: 912,0 --> 0
   Type:4 Lit = 1
   Type:1 Prd
     Type:4 Lit = 231
     Type:4 Lit = 80
     Type:4 Lit = 48
-    Values:231,80,48
-    Result:887040
+    Prd: 231,80,48 --> 887040
   Type:4 Lit = 640876
   Type:2 Min
     Type:4 Lit = 960
     Type:4 Lit = 2
     Type:4 Lit = 108668676
     Type:4 Lit = 1837142
-    Values:960,2,108668676,1837142
-    Result:2
+    Min: 960,2,108668676,1837142 --> 2
   Type:0 Sum
     Type:4 Lit = 28
     Type:4 Lit = 526762
     Type:4 Lit = 1714
     Type:4 Lit = 2063037
     Type:4 Lit = 3819
-    Values:28,526762,1714,2063037,3819
-    Result:2595360
+    Sum: 28,526762,1714,2063037,3819 --> 2595360
   Type:1 Prd
     Type:3 Max
       Type:3 Max
@@ -126,110 +107,77 @@ Type:0 Sum
                                       Type:2 Min
                                         Type:2 Min
                                           Type:4 Lit = 7998
-                                          Values:7998
-                                          Result:7998
-                                        Values:7998
-                                        Result:7998
-                                      Values:7998
-                                      Result:7998
-                                    Values:7998
-                                    Result:7998
-                                  Values:7998
-                                  Result:7998
-                                Values:7998
-                                Result:7998
-                              Values:7998
-                              Result:7998
-                            Values:7998
-                            Result:7998
-                          Values:7998
-                          Result:7998
-                        Values:7998
-                        Result:7998
-                      Values:7998
-                      Result:7998
-                    Values:7998
-                    Result:7998
-                  Values:7998
-                  Result:7998
-                Values:7998
-                Result:7998
-              Values:7998
-              Result:7998
-            Values:7998
-            Result:7998
-          Values:7998
-          Result:7998
-        Values:7998
-        Result:7998
-      Values:7998
-      Result:7998
-    Values:7998
-    Result:7998
+                                          Min: 7998 --> 7998
+                                        Min: 7998 --> 7998
+                                      Max: 7998 --> 7998
+                                    Min: 7998 --> 7998
+                                  Prd: 7998 --> 7998
+                                Sum: 7998 --> 7998
+                              Min: 7998 --> 7998
+                            Sum: 7998 --> 7998
+                          Min: 7998 --> 7998
+                        Sum: 7998 --> 7998
+                      Prd: 7998 --> 7998
+                    Prd: 7998 --> 7998
+                  Min: 7998 --> 7998
+                Min: 7998 --> 7998
+              Min: 7998 --> 7998
+            Max: 7998 --> 7998
+          Sum: 7998 --> 7998
+        Max: 7998 --> 7998
+      Max: 7998 --> 7998
+    Prd: 7998 --> 7998
   Type:0 Sum
     Type:1 Prd
       Type:4 Lit = 9
       Type:4 Lit = 7
       Type:4 Lit = 6
-      Values:9,7,6
-      Result:378
+      Prd: 9,7,6 --> 378
     Type:1 Prd
       Type:4 Lit = 9
       Type:4 Lit = 3
       Type:4 Lit = 7
-      Values:9,3,7
-      Result:189
+      Prd: 9,3,7 --> 189
     Type:1 Prd
       Type:4 Lit = 15
       Type:4 Lit = 2
       Type:4 Lit = 8
-      Values:15,2,8
-      Result:240
-    Values:378,189,240
-    Result:807
+      Prd: 15,2,8 --> 240
+    Sum: 378,189,240 --> 807
   Type:3 Max
     Type:4 Lit = 0
     Type:4 Lit = 946413
     Type:4 Lit = 1827
-    Values:0,946413,1827
-    Result:946413
+    Max: 0,946413,1827 --> 946413
   Type:1 Prd
     Type:6 LT
       Type:0 Sum
         Type:4 Lit = 14
         Type:4 Lit = 10
         Type:4 Lit = 11
-        Values:14,10,11
-        Result:35
+        Sum: 14,10,11 --> 35
       Type:0 Sum
         Type:4 Lit = 7
         Type:4 Lit = 10
         Type:4 Lit = 11
-        Values:7,10,11
-        Result:28
-      Values:35,28
-      Result:0
+        Sum: 7,10,11 --> 28
+      LT: 35,28 --> 0
     Type:4 Lit = 8
-    Values:0,8
-    Result:0
+    Prd: 0,8 --> 0
   Type:1 Prd
     Type:6 LT
       Type:4 Lit = 2983129
       Type:4 Lit = 0
-      Values:2983129,0
-      Result:0
+      LT: 2983129,0 --> 0
     Type:4 Lit = 159
-    Values:0,159
-    Result:0
+    Prd: 0,159 --> 0
   Type:1 Prd
     Type:6 LT
       Type:4 Lit = 198
       Type:4 Lit = 123741580
-      Values:198,123741580
-      Result:1
+      LT: 198,123741580 --> 1
     Type:4 Lit = 530
-    Values:1,530
-    Result:530
+    Prd: 1,530 --> 530
   Type:4 Lit = 9
   Type:1 Prd
     Type:7 EQ
@@ -237,85 +185,68 @@ Type:0 Sum
         Type:4 Lit = 15
         Type:4 Lit = 12
         Type:4 Lit = 3
-        Values:15,12,3
-        Result:30
+        Sum: 15,12,3 --> 30
       Type:0 Sum
         Type:4 Lit = 2
         Type:4 Lit = 7
         Type:4 Lit = 4
-        Values:2,7,4
-        Result:13
-      Values:30,13
-      Result:0
+        Sum: 2,7,4 --> 13
+      EQ: 30,13 --> 0
     Type:4 Lit = 55247
-    Values:0,55247
-    Result:0
+    Prd: 0,55247 --> 0
   Type:1 Prd
     Type:4 Lit = 129
     Type:4 Lit = 81
     Type:4 Lit = 188
     Type:4 Lit = 170
     Type:4 Lit = 51
-    Values:129,81,188,170,51
-    Result:17031452040
+    Prd: 129,81,188,170,51 --> 17031452040
   Type:1 Prd
     Type:6 LT
       Type:4 Lit = 369174392
       Type:4 Lit = 369174392
-      Values:369174392,369174392
-      Result:0
+      LT: 369174392,369174392 --> 0
     Type:4 Lit = 261824
-    Values:0,261824
-    Result:0
+    Prd: 0,261824 --> 0
   Type:3 Max
     Type:4 Lit = 60001
     Type:4 Lit = 342354
     Type:4 Lit = 40759
     Type:4 Lit = 31380
     Type:4 Lit = 1991
-    Values:60001,342354,40759,31380,1991
-    Result:342354
+    Max: 60001,342354,40759,31380,1991 --> 342354
   Type:3 Max
     Type:4 Lit = 24994
     Type:4 Lit = 3984
-    Values:24994,3984
-    Result:24994
+    Max: 24994,3984 --> 24994
   Type:1 Prd
     Type:5 GT
       Type:4 Lit = 5602
       Type:4 Lit = 119
-      Values:5602,119
-      Result:1
+      GT: 5602,119 --> 1
     Type:4 Lit = 4390962
-    Values:1,4390962
-    Result:4390962
+    Prd: 1,4390962 --> 4390962
   Type:1 Prd
     Type:4 Lit = 169
     Type:5 GT
       Type:4 Lit = 0
       Type:4 Lit = 168
-      Values:0,168
-      Result:0
-    Values:169,0
-    Result:0
+      GT: 0,168 --> 0
+    Prd: 169,0 --> 0
   Type:1 Prd
     Type:7 EQ
       Type:4 Lit = 762943
       Type:4 Lit = 762943
-      Values:762943,762943
-      Result:1
+      EQ: 762943,762943 --> 1
     Type:4 Lit = 262503
-    Values:1,262503
-    Result:262503
+    Prd: 1,262503 --> 262503
   Type:1 Prd
     Type:6 LT
       Type:4 Lit = 591869
       Type:4 Lit = 92
-      Values:591869,92
-      Result:0
+      LT: 591869,92 --> 0
     Type:4 Lit = 178662960
-    Values:0,178662960
-    Result:0
+    Prd: 0,178662960 --> 0
   Type:1 Prd
     Type:4 Lit = 3215
     Type:5 GT
@@ -323,144 +254,114 @@ Type:0 Sum
         Type:4 Lit = 4
         Type:4 Lit = 2
         Type:4 Lit = 7
-        Values:4,2,7
-        Result:13
+        Sum: 4,2,7 --> 13
       Type:0 Sum
         Type:4 Lit = 8
         Type:4 Lit = 4
         Type:4 Lit = 7
-        Values:8,4,7
-        Result:19
-      Values:13,19
-      Result:0
-    Values:3215,0
-    Result:0
+        Sum: 8,4,7 --> 19
+      GT: 13,19 --> 0
+    Prd: 3215,0 --> 0
   Type:0 Sum
     Type:4 Lit = 10
-    Values:10
-    Result:10
+    Sum: 10 --> 10
   Type:4 Lit = 11
   Type:1 Prd
     Type:4 Lit = 3052880
     Type:5 GT
       Type:4 Lit = 36
       Type:4 Lit = 36
-      Values:36,36
-      Result:0
-    Values:3052880,0
-    Result:0
+      GT: 36,36 --> 0
+    Prd: 3052880,0 --> 0
   Type:1 Prd
     Type:5 GT
       Type:4 Lit = 3
       Type:4 Lit = 1032128
-      Values:3,1032128
-      Result:0
+      GT: 3,1032128 --> 0
     Type:4 Lit = 190
-    Values:0,190
-    Result:0
+    Prd: 0,190 --> 0
   Type:3 Max
     Type:4 Lit = 36748
-    Values:36748
-    Result:36748
+    Max: 36748 --> 36748
   Type:2 Min
     Type:4 Lit = 783947
     Type:4 Lit = 8740
-    Values:783947,8740
-    Result:8740
+    Min: 783947,8740 --> 8740
   Type:2 Min
     Type:4 Lit = 13
     Type:4 Lit = 0
     Type:4 Lit = 762844
     Type:4 Lit = 139
     Type:4 Lit = 148
-    Values:13,0,762844,139,148
-    Result:0
+    Min: 13,0,762844,139,148 --> 0
   Type:0 Sum
     Type:4 Lit = 5361165
     Type:4 Lit = 59
-    Values:5361165,59
-    Result:5361224
+    Sum: 5361165,59 --> 5361224
   Type:1 Prd
     Type:4 Lit = 198
     Type:4 Lit = 144
-    Values:198,144
-    Result:28512
+    Prd: 198,144 --> 28512
   Type:1 Prd
     Type:4 Lit = 207
     Type:4 Lit = 138
     Type:4 Lit = 23
     Type:4 Lit = 86
-    Values:207,138,23,86
-    Result:56503548
+    Prd: 207,138,23,86 --> 56503548
   Type:1 Prd
     Type:4 Lit = 56
-    Values:56
-    Result:56
+    Prd: 56 --> 56
   Type:1 Prd
     Type:6 LT
       Type:0 Sum
         Type:4 Lit = 4
         Type:4 Lit = 6
         Type:4 Lit = 11
-        Values:4,6,11
-        Result:21
+        Sum: 4,6,11 --> 21
       Type:0 Sum
         Type:4 Lit = 11
         Type:4 Lit = 7
         Type:4 Lit = 15
-        Values:11,7,15
-        Result:33
-      Values:21,33
-      Result:1
+        Sum: 11,7,15 --> 33
+      LT: 21,33 --> 1
     Type:4 Lit = 535034
-    Values:1,535034
-    Result:535034
+    Prd: 1,535034 --> 535034
   Type:0 Sum
     Type:4 Lit = 150
     Type:4 Lit = 4362464
     Type:4 Lit = 117022762
     Type:4 Lit = 17291
-    Values:150,4362464,117022762,17291
-    Result:121402667
+    Sum: 150,4362464,117022762,17291 --> 121402667
   Type:2 Min
     Type:4 Lit = 2741
-    Values:2741
-    Result:2741
+    Min: 2741 --> 2741
   Type:4 Lit = 4
   Type:1 Prd
     Type:4 Lit = 10328
     Type:7 EQ
       Type:4 Lit = 753274
       Type:4 Lit = 11612489
-      Values:753274,11612489
-      Result:0
-    Values:10328,0
-    Result:0
+      EQ: 753274,11612489 --> 0
+    Prd: 10328,0 --> 0
   Type:3 Max
     Type:4 Lit = 3511
     Type:4 Lit = 133033
     Type:4 Lit = 15
     Type:4 Lit = 15681589
-    Values:3511,133033,15,15681589
-    Result:15681589
+    Max: 3511,133033,15,15681589 --> 15681589
   Type:1 Prd
     Type:4 Lit = -1005048866
     Type:7 EQ
       Type:4 Lit = 0
       Type:4 Lit = 92629986
-      Values:0,92629986
-      Result:0
-    Values:-1005048866,0
-    Result:0
+      EQ: 0,92629986 --> 0
+    Prd: -1005048866,0 --> 0
   Type:4 Lit = 174
   Type:1 Prd
     Type:5 GT
       Type:4 Lit = 1025758
       Type:4 Lit = 1025758
-      Values:1025758,1025758
-      Result:0
+      GT: 1025758,1025758 --> 0
     Type:4 Lit = -1997303202
-    Values:0,-1997303202
-    Result:0
-  Values:95562845,0,0,12,0,13650,1875664839,14,-1699209492,84,0,1,887040,640876,2,2595360,7998,807,946413,0,0,530,9,0,17031452040,0,342354,24994,4390962,0,262503,0,0,10,11,0,0,36748,8740,0,5361224,28512,56503548,56,535034,121402667,2741,4,0,15681589,0,174,0
-  Result:17513144899
+    Prd: 0,-1997303202 --> 0
+  Sum: 95562845,0,0,12,0,13650,1875664839,14,-1699209492,84,0,1,887040,640876,2,2595360,7998,807,946413,0,0,530,9,0,17031452040,0,342354,24994,4390962,0,262503,0,0,10,11,0,0,36748,8740,0,5361224,28512,56503548,56,535034,121402667,2741,4,0,15681589,0,174,0 --> 17513144899
