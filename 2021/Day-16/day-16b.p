@@ -15,7 +15,7 @@ END FUNCTION.
 
 FUNCTION toInt RETURNS INT64(pcBin AS CHARACTER):
   DEFINE VARIABLE iValue AS INT64 NO-UNDO.
-  iValue = System.Convert:ToInt32(pcBin,2) NO-ERROR.
+  iValue = System.Convert:ToInt64(pcBin,2) NO-ERROR.
   RETURN iValue.
 END FUNCTION. 
 
@@ -40,7 +40,8 @@ OUTPUT TO dbg.txt.
 RUN parsePacket(OUTPUT giValue).
 OUTPUT CLOSE. 
 
-MESSAGE giValue VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+MESSAGE giValue VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.  /* 124921618408 */
+
 
 PROCEDURE parsePacket:
   DEFINE OUTPUT PARAMETER piValue AS INT64 NO-UNDO.
@@ -176,6 +177,7 @@ PROCEDURE readData:
     pcMessage = pcMessage + ENTRY( LOOKUP(cHex, "0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F")
                                  , "0000,0001,0010,0011,0100,0101,0110,0111,1000,1001,1010,1011,1100,1101,1110,1111").
   END.
-
+  
 END PROCEDURE. /* readData */
-
+             
+             
