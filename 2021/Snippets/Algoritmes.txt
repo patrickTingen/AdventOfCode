@@ -1,0 +1,7 @@
+day-06 - grote groep met vissen die van status veranderen, truc is om niet elke vis apart te berekenen maar groepen maken 
+day-08 - patroon matching op digitale cijfers. Bepalen door overeenkomsten en beperkingen in overlap van cijfers te zoeken
+day-14 - steeds langer wordende character string, ook hier groepen maken van patronen ipv individueel uitrekenen 
+day-15 - pad zoeken in doolhof, Dijkstra algoritme
+day-16 - BITS decoder, instructies verwerken
+
+
