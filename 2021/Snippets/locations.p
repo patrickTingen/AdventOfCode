@@ -1,5 +1,7 @@
 /* AoC snippet for location handling in a TT
  */ 
+ 
+&GLOBAL-DEFINE path c:\Data\DropBox\AdventOfCode\2021\Day-22\
 
 DEFINE TEMP-TABLE ttLoc NO-UNDO
   FIELD iPosX  AS INTEGER /* x-pos  */
@@ -77,4 +79,3 @@ PROCEDURE showGrid:
   COPY-LOB cGrid TO FILE "debug.txt".
 
 END PROCEDURE. /* showGrid */
-
