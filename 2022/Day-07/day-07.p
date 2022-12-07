@@ -3,7 +3,8 @@
 DEFINE TEMP-TABLE ttDir NO-UNDO
   FIELD cDirName AS CHARACTER FORMAT 'x(60)'
   FIELD iDirSize AS INTEGER
-  INDEX iPrim IS PRIMARY cDirName.
+  INDEX iPrim IS PRIMARY UNIQUE cDirName
+  INDEX iSize iDirSize.
 
 DEFINE TEMP-TABLE ttFile NO-UNDO
   FIELD cFileName AS CHARACTER FORMAT 'x(60)'
@@ -35,39 +36,24 @@ FUNCTION cd RETURNS CHARACTER (pcDir AS CHARACTER, pcArg AS CHARACTER):
   END CASE.
 END FUNCTION. 
 
-DEFINE VARIABLE cLine  AS CHARACTER NO-UNDO.
 DEFINE VARIABLE cDir   AS CHARACTER NO-UNDO.
-DEFINE VARIABLE cMode  AS CHARACTER NO-UNDO.
-DEFINE VARIABLE iTotal AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iPartA AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iPartB AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iFree  AS INTEGER   NO-UNDO.
+DEFINE VARIABLE a AS CHARACTER   NO-UNDO.
+DEFINE VARIABLE b AS CHARACTER   NO-UNDO.
+DEFINE VARIABLE c AS CHARACTER   NO-UNDO.
+
+ETIME(YES).
 
 INPUT FROM data.txt.
 REPEAT:
-  IMPORT UNFORMATTED cLine.
+  IMPORT a b c.
 
-  IF cLine BEGINS '$' THEN cMode = ''.
-
-  IF cMode = 'LS' THEN
-  DO:
-    IF cLine BEGINS 'dir' 
-      THEN md(cDir + ENTRY(2, cLine, ' ') + '/').
-      ELSE addFile(cDir + ENTRY(2, cLine, ' '), INTEGER(ENTRY(1, cLine, ' '))).
-  END.
-
-  ELSE
-  DO:
-    IF cLine BEGINS '$ cd' THEN DO:
-      cDir = cd(cDir, ENTRY(3, cLine, ' ')).
-      NEXT.
-    END.
-
-    IF cLine = '$ ls' THEN DO:
-      cMode = "LS".
-      NEXT.
-    END.
-  END.
+  IF a = 'dir' THEN md(cDir + b + '/').
+  ELSE IF a = '$' AND b = 'cd' THEN cDir = cd(cDir, c).
+  ELSE IF a = '$' AND b = 'ls' THEN NEXT.
+  ELSE addFile(cDir + b, INTEGER(a)).
 
 END.
 INPUT CLOSE.
@@ -94,6 +80,6 @@ FOR EACH ttDir BY ttDir.iDirSize:
 END.
 
 MESSAGE "Part A:" iPartA 
-   SKIP "Part B:" iPartB
+   SKIP "Part B:" iPartB ETIME
   VIEW-AS ALERT-BOX INFO BUTTONS OK.
 
