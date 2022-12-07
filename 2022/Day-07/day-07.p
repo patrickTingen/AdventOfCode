@@ -3,8 +3,7 @@
 DEFINE TEMP-TABLE ttDir NO-UNDO
   FIELD cDirName AS CHARACTER FORMAT 'x(60)'
   FIELD iDirSize AS INTEGER
-  INDEX iPrim IS PRIMARY UNIQUE cDirName
-  INDEX iSize iDirSize.
+  INDEX iPrim IS PRIMARY cDirName.
 
 DEFINE TEMP-TABLE ttFile NO-UNDO
   FIELD cFileName AS CHARACTER FORMAT 'x(60)'
@@ -14,17 +13,23 @@ DEFINE TEMP-TABLE ttFile NO-UNDO
 FUNCTION md RETURNS CHARACTER (pcDir AS CHARACTER):
   DEFINE BUFFER bDir FOR ttDir.
   FIND bDir WHERE bDir.cDirName = pcDir NO-ERROR.
-  IF NOT AVAILABLE bDir THEN CREATE bDir.
-  ASSIGN bDir.cDirName = pcDir. 
+  IF NOT AVAILABLE bDir THEN 
+  DO:
+    CREATE bDir.
+    ASSIGN bDir.cDirName = pcDir. 
+  END.
   RETURN pcDir.
 END FUNCTION. 
 
 FUNCTION addFile RETURNS CHARACTER (pcFile AS CHARACTER, piSize AS INTEGER):
   DEFINE BUFFER bFile FOR ttFile.
   FIND bFile WHERE bFile.cFileName = pcFile NO-ERROR.
-  IF NOT AVAILABLE bFile THEN CREATE bFile.
-  ASSIGN bFile.cFileName = pcFile
-         bFile.iFileSize = piSize.
+  IF NOT AVAILABLE bFile THEN 
+  DO:
+    CREATE bFile.
+    ASSIGN bFile.cFileName = pcFile
+           bFile.iFileSize = piSize.
+  END.
   RETURN pcFile.
 END FUNCTION. 
 
