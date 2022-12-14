@@ -1,0 +1,30 @@
+2021
+day-06 - grote groep met vissen die van status veranderen, truc is om niet elke vis apart te berekenen maar groepen maken 
+day-08 - patroon matching op digitale cijfers. Bepalen door overeenkomsten en beperkingen in overlap van cijfers te zoeken
+day-14 - steeds langer wordende character string, ook hier groepen maken van patronen ipv individueel uitrekenen 
+day-15 - pad zoeken in doolhof, Dijkstra algoritme
+day-16 - BITS decoder, instructies verwerken
+day-18 - 2 Lijsten-in-lijsten met elkaar vergelijken
+
+2022
+day-01 - Input 1x door parsen op zoek naar langste
+day-02 - rock, paper, scissors spelen
+day-03 - case sensitive zoeken in strings
+day-04 - overlappende strings uitpluizen
+day-05 - soort torens van hanoi, meerdere stacks
+day-06 - zoek 4 unieke tekens in een lange string
+day-07 - 
+day-08 - 
+day-09 - 
+day-10 - 
+day-11 - 
+day-12 - Dijkstra, a la 2021-15
+day-13 - 2 Lijsten-in-lijsten met elkaar vergelijken
+day-14 - Zand vallend naar beneden, opgelost met grid.cls
+day-15 - 
+day-16 - 
+day-17 - 
+day-18 - 
+day-19 - 
+day-20 - 
+

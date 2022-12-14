@@ -31,4 +31,5 @@ echo. > data.txt
 
 :: open in browser
 start https://adventofcode.com/%year%/day/%daynr%
+start https://adventofcode.com/%year%/day/%daynr%/input
 goto :EOF
