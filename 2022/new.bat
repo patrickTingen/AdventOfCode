@@ -29,7 +29,12 @@ echo. > day-%1.txt
 echo. > test.txt
 echo. > data.txt
 
-:: open in browser
-start https://adventofcode.com/%year%/day/%daynr%
+:: open browser + editor
+start data.txt
 start https://adventofcode.com/%year%/day/%daynr%/input
+
+start test.txt
+start day-%1.txt
+start https://adventofcode.com/%year%/day/%daynr%
+
 goto :EOF
