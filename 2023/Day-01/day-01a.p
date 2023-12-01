@@ -1,0 +1,20 @@
+/* AoC 2023 day 01a 
+ */ 
+DEFINE VARIABLE cLine   AS CHARACTER NO-UNDO.
+DEFINE VARIABLE cData   AS LONGCHAR  NO-UNDO.
+DEFINE VARIABLE i       AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iAnswer AS INTEGER   NO-UNDO.
+
+COPY-LOB FILE "test.txt" TO cData.
+
+DO i = 1 TO 26:
+  cData = REPLACE(cData, CHR(96 + i), '').
+END.
+
+DO i = 1 TO NUM-ENTRIES(cData,'~n'):
+  cLine = ENTRY(i,cData,'~n').
+  IF cLine > "" THEN iAnswer = iAnswer + INTEGER(SUBSTRING(cLine,1,1) + SUBSTRING(cLine,LENGTH(cLine) - 1,1)).
+END.
+
+MESSAGE iAnswer
+  VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
