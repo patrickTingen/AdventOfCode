@@ -1,0 +1,35 @@
+/* point.cls
+*/
+CLASS Point:
+
+  DEFINE PUBLIC PROPERTY iX AS INTEGER NO-UNDO INITIAL ?
+    GET. SET.
+
+  DEFINE PUBLIC PROPERTY iY AS INTEGER NO-UNDO INITIAL ?
+    GET. SET.
+  
+  DEFINE PUBLIC PROPERTY cValue AS CHARACTER NO-UNDO INITIAL ? 
+    GET. SET. 
+    
+  DEFINE PUBLIC PROPERTY north AS point
+    GET. SET.
+    
+  CONSTRUCTOR Point
+    ( pX   AS INTEGER
+    , pY   AS INTEGER
+    , pVal AS CHARACTER
+    ):
+    
+    THIS-OBJECT:ix = pX.
+    THIS-OBJECT:iY = pY.
+    THIS-OBJECT:cValue = pVal.    
+  END CONSTRUCTOR.
+    
+  /* For debugging 
+  */
+  METHOD OVERRIDE PUBLIC CHARACTER toString():
+    RETURN THIS-OBJECT:cValue.
+  END METHOD.
+ 
+END CLASS. /* Point */
+
