@@ -21,7 +21,7 @@ END FUNCTION.
 DEFINE VARIABLE max-hashes AS INTEGER EXTENT 100 NO-UNDO.
 
 FUNCTION CountCombinations RETURNS INTEGER 
-  ( s AS CHARACTER
+  ( s    AS CHARACTER
   , runs AS CHARACTER ):
 
   DEFINE VARIABLE i AS INTEGER   NO-UNDO.
@@ -53,7 +53,7 @@ FUNCTION CountCombinations RETURNS INTEGER
     DO j = 1 TO LENGTH(s):
       IF SUBSTRING(s,j,1) <> "#" THEN
       DO:
-        v = dp(i + 1,j) + ( IF r <= max-hashes[j] AND dp(i,j - r) <> 0 THEN 1 ELSE 0).
+        v = dp(i + 1,j) + ( IF r <= max-hashes[j] THEN dp(i,j - r) ELSE 0).
         setDp(i + 1, j + 1, v).
         /*
           for i, n in enumerate(runs):
