@@ -1,0 +1,30 @@
+/* AoC 2023 day 15a 
+ */ 
+DEFINE VARIABLE cData   AS CHARACTER NO-UNDO.
+DEFINE VARIABLE i       AS INTEGER   NO-UNDO.
+DEFINE VARIABLE iAnswer AS INTEGER   NO-UNDO.
+
+FUNCTION hash RETURNS INTEGER(pcWord AS CHARACTER):
+  DEFINE VARIABLE iHash AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE i     AS INTEGER   NO-UNDO.
+
+  pcWord = TRIM(pcWord).
+  DO i = 1 TO LENGTH(pcWord):
+    iHash = iHash + ASC(SUBSTRING(pcWord,i,1)).
+    iHash = iHash * 17.
+    iHash = iHash MOD 256.
+  END.
+  RETURN iHash.
+END FUNCTION.
+
+INPUT FROM "data.txt".
+IMPORT UNFORMATTED cData.
+INPUT CLOSE. 
+
+DO i = 1 TO NUM-ENTRIES(cData):
+  iAnswer = iAnswer + hash(ENTRY(i,cData)).
+END.
+
+MESSAGE iAnswer
+  VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+
