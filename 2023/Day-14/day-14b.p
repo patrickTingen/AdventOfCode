@@ -73,7 +73,7 @@ FUNCTION loadGrid RETURNS LOGICAL
 
   DO iRow = 1 TO giNumRows:
     DO iCol = 1 TO giNumCols:
-      setPos(iCol, iRow, SUBSTRING(ENTRY(iRow, cData, '~n'), iCol, 1)).
+      setPos(iCol, iRow, STRING(SUBSTRING(ENTRY(iRow, cData, '~n'), iCol, 1))).
     END.
   END.
 END FUNCTION. /* loadGrid */
@@ -231,4 +231,3 @@ DO giCycle = 1 TO 1000:
   MESSAGE giCycle.
   PROCESS EVENTS. 
 END.
-
