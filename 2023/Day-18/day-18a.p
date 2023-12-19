@@ -49,89 +49,104 @@ FUNCTION pos RETURNS CHARACTER
 END FUNCTION. /* pos */
 
 
-DEFINE VARIABLE cData  AS LONGCHAR  NO-UNDO.
-DEFINE VARIABLE iCol   AS INTEGER   NO-UNDO.
-DEFINE VARIABLE iRow   AS INTEGER   NO-UNDO.
-DEFINE VARIABLE cDir   AS CHARACTER NO-UNDO.
-DEFINE VARIABLE cPrev  AS CHARACTER NO-UNDO.
-DEFINE VARIABLE i      AS INTEGER   NO-UNDO.
-DEFINE VARIABLE j      AS INTEGER   NO-UNDO.
-DEFINE VARIABLE iSteps AS INTEGER   NO-UNDO.
-
-COPY-LOB FILE "test.txt" TO cData.
-cData = TRIM(cData,"~n").
-
-iCol = 1.
-iRow = 1.
-cPrev = "R".
-
-/* Draw outline */
-DO i = 1 TO NUM-ENTRIES(cData,"~n"):
-
-  cDir = ENTRY(1, ENTRY(i,cData,"~n"), " ").
-  iSteps = INTEGER(ENTRY(2, ENTRY(i,cData,"~n"), " ")).
-
-  DO j = 1 TO iSteps:
-
-    CASE cPrev + cDir:
-      WHEN "RR" THEN setPos(iCol,iRow,"-").
-      WHEN "LL" THEN setPos(iCol,iRow,"-").
-      WHEN "DD" THEN setPos(iCol,iRow,"|").
-      WHEN "UU" THEN setPos(iCol,iRow,"|").
-      WHEN "RU" THEN setPos(iCol,iRow,"J").
-      WHEN "RD" THEN setPos(iCol,iRow,"7").
-      WHEN "LU" THEN setPos(iCol,iRow,"L").
-      WHEN "LD" THEN setPos(iCol,iRow,"F").
-      WHEN "UL" THEN setPos(iCol,iRow,"7").
-      WHEN "UR" THEN setPos(iCol,iRow,"F").
-      WHEN "DL" THEN setPos(iCol,iRow,"J").
-      WHEN "DR" THEN setPos(iCol,iRow,"L").
-      OTHERWISE MESSAGE cPrev cDir VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
-    END CASE.
-    
-    CASE cDir:
-      WHEN "R" THEN iCol = iCol + 1.
-      WHEN "L" THEN iCol = iCol - 1.
-      WHEN "D" THEN iRow = iRow + 1.
-      WHEN "U" THEN iRow = iRow - 1.
-    END CASE.
-
-    cPrev = cDir.
-  END.
-END.
-
-
-DEFINE VARIABLE iCount  AS INTEGER   NO-UNDO.
-DEFINE VARIABLE cPos    AS CHARACTER NO-UNDO.
-DEFINE VARIABLE lInside AS LOGICAL   NO-UNDO.
-DEFINE VARIABLE iDir    AS INTEGER   NO-UNDO.
-     
-DO iRow = iMinRow TO iMaxRow:
+PROCEDURE loadGrid:
+  /* Load data and build the grid
+  */
+  DEFINE INPUT PARAMETER pcFile AS CHARACTER NO-UNDO.
   
-  lInside = FALSE.
+  DEFINE VARIABLE cData  AS LONGCHAR  NO-UNDO.
+  DEFINE VARIABLE iCol   AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iRow   AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE cDir   AS CHARACTER NO-UNDO.
+  DEFINE VARIABLE cPrev  AS CHARACTER NO-UNDO.
+  DEFINE VARIABLE i      AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE j      AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iSteps AS INTEGER   NO-UNDO.
 
-  DO iCol = iMinCol TO iMaxCol:
-    cPos = pos(iCol,iRow).
-    
-    CASE cPos:
-      WHEN "F" THEN iDir = 1.
-      WHEN "|" THEN lInside = NOT lInside.
-      WHEN "-" THEN .
-      WHEN "L" THEN iDir = -1.
-      WHEN "J" THEN IF iDir = 1 THEN lInside = NOT lInside.
-      WHEN "7" THEN IF iDir = -1 THEN lInside = NOT lInside.
-      WHEN " " THEN IF lInside THEN iCount = iCount + 1.
-    END CASE.
+  /* Repeat first step, otherwise the very first character
+  ** will not be the right corner-character and counting
+  ** nr of squares will miss a line
+  */
+  COPY-LOB FILE pcFile TO cData.
+  cData = TRIM(cData,"~n") + "~n" + ENTRY(1,cData,"~n").
 
-    /* count the wall itself as well */
-    IF INDEX("F|-LJ7",cPos) > 0 THEN iCount = iCount + 1.     
+  /* Draw outline */
+  DO i = 1 TO NUM-ENTRIES(cData,"~n"):
+
+    cDir = ENTRY(1, ENTRY(i,cData,"~n"), " ").
+    iSteps = INTEGER(ENTRY(2, ENTRY(i,cData,"~n"), " ")).
+
+    DO j = 1 TO iSteps:
+
+      CASE cPrev + cDir:
+        WHEN "RR" THEN setPos(iCol,iRow,"-").
+        WHEN "LL" THEN setPos(iCol,iRow,"-").
+        WHEN "DD" THEN setPos(iCol,iRow,"|").
+        WHEN "UU" THEN setPos(iCol,iRow,"|").
+        WHEN "RU" THEN setPos(iCol,iRow,"J").
+        WHEN "RD" THEN setPos(iCol,iRow,"7").
+        WHEN "LU" THEN setPos(iCol,iRow,"L").
+        WHEN "LD" THEN setPos(iCol,iRow,"F").
+        WHEN "UL" THEN setPos(iCol,iRow,"7").
+        WHEN "UR" THEN setPos(iCol,iRow,"F").
+        WHEN "DL" THEN setPos(iCol,iRow,"J").
+        WHEN "DR" THEN setPos(iCol,iRow,"L").
+      END CASE.
+      
+      CASE cDir:
+        WHEN "R" THEN iCol = iCol + 1.
+        WHEN "L" THEN iCol = iCol - 1.
+        WHEN "D" THEN iRow = iRow + 1.
+        WHEN "U" THEN iRow = iRow - 1.
+      END CASE.
+
+      cPrev = cDir.
+    END.
   END.
-END.
+END PROCEDURE. 
 
-/* answer somewhere between 56856 and 58909 
-*/
-MESSAGE iCount VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
 
+PROCEDURE calcSurface:
+  DEFINE VARIABLE iCol    AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iRow    AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iCount  AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE cPos    AS CHARACTER NO-UNDO.
+  DEFINE VARIABLE lInside AS LOGICAL   NO-UNDO.
+  DEFINE VARIABLE iDir    AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE cDebug  AS LONGCHAR  NO-UNDO.
+       
+  DO iRow = iMinRow TO iMaxRow:
+    
+    lInside = FALSE.
+
+    DO iCol = iMinCol TO iMaxCol:
+      cPos = pos(iCol,iRow).
+      
+      CASE cPos:
+        WHEN "F" THEN iDir = 1.
+        WHEN "|" THEN lInside = NOT lInside.
+        WHEN "-" THEN .
+        WHEN "L" THEN iDir = -1.
+        WHEN "J" THEN IF iDir = 1 THEN lInside = NOT lInside.
+        WHEN "7" THEN IF iDir = -1 THEN lInside = NOT lInside.
+        WHEN " " THEN IF lInside THEN iCount = iCount + 1.
+      END CASE.
+
+      /* count the wall itself as well */
+      IF INDEX("F|-LJ7",cPos) > 0 THEN iCount = iCount + 1.     
+      cDebug = cDebug + cPos.
+    END.
+    cDebug = cDebug + "~n".
+  END.
+
+  /* 56923 */
+  COPY-LOB cDebug TO FILE "debug.txt".
+  MESSAGE iCount VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+END PROCEDURE. 
+
+
+RUN loadGrid("data.txt").
+RUN calcSurface.
 
 
 
