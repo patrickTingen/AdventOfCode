@@ -1,8 +1,5 @@
-/* AoC 2023 day 23a
-*/
-DEFINE VARIABLE giNumCols  AS INTEGER   NO-UNDO INITIAL ?.
-DEFINE VARIABLE giNumRows  AS INTEGER   NO-UNDO INITIAL ?.
-DEFINE VARIABLE giNumLocs  AS INTEGER   NO-UNDO.
+/* Algorithm to find exit in longest possible way
+ */ 
 DEFINE VARIABLE gcStart    AS CHARACTER NO-UNDO.
 DEFINE VARIABLE gcExit     AS CHARACTER NO-UNDO.
 DEFINE VARIABLE giDistance AS INTEGER   NO-UNDO.
@@ -16,19 +13,9 @@ DEFINE TEMP-TABLE ttLoc NO-UNDO
   INDEX iPrim cId
   INDEX iPos iCol iRow. 
 
-ETIME(YES).
-RUN readData("data.txt").
-
-/* Where is the start */
-FIND ttLoc WHERE ttLoc.iRow = 1 AND ttLoc.cVal = ".".
-gcStart = ttLoc.cId.
-
-/* Where is the exit */
-FIND ttLoc WHERE ttLoc.iRow = giNumRows AND ttLoc.cVal = ".".
-gcExit = ttLoc.cId.
-
+RUN readData("test2.txt").
 RUN findExit(gcStart, gcStart).
-MESSAGE "Max route is" giDistance "steps" SKIP ETIME "msec" VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+MESSAGE "Max route is" giDistance "steps" VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
 
 
 PROCEDURE findExit:
@@ -69,6 +56,10 @@ PROCEDURE readData:
   DEFINE VARIABLE cData AS LONGCHAR  NO-UNDO.
   DEFINE VARIABLE iX    AS INTEGER   NO-UNDO.
   DEFINE VARIABLE iY    AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iNr   AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iMaxX AS INTEGER   NO-UNDO.
+  DEFINE VARIABLE iMaxY AS INTEGER   NO-UNDO.
+
   DEFINE BUFFER bLoc FOR ttLoc. 
 
   COPY-LOB FILE pcFile TO cData.
@@ -77,18 +68,18 @@ PROCEDURE readData:
   cData = TRIM(REPLACE(cData,'~r',''),'~n').
 
   /* Max dimensions of playing field */
-  giNumCols = LENGTH(ENTRY(1,cData,'~n')).
-  giNumRows = NUM-ENTRIES(cData,'~n').
+  iMaxX = LENGTH(ENTRY(1,cData,'~n')).
+  iMaxY = NUM-ENTRIES(cData,'~n').
 
   EMPTY TEMP-TABLE ttLoc. 
 
-  DO iY = 1 TO giNumRows:
-    DO iX = 1 TO giNumCols:
+  DO iY = 1 TO iMaxY:
+    DO iX = 1 TO iMaxX:
 
-      giNumLocs = giNumLocs + 1.
+      iNr = iNr + 1.
       CREATE bLoc.
       ASSIGN 
-        bLoc.cId  = STRING(giNumLocs)
+        bLoc.cId  = STRING(iNr)
         bLoc.iCol = iX 
         bLoc.iRow = iY 
         bLoc.cVal = SUBSTRING(ENTRY(iY, cData, '~n'), iX, 1).
@@ -101,32 +92,5 @@ PROCEDURE readData:
     END. /* iX */
   END. /* iY */
 
-  /* Walls not needed, speeds up from 34 to 25 sec */
-  FOR EACH bLoc WHERE bLoc.cVal = "#": 
-    DELETE bLoc. 
-  END.
-
 END PROCEDURE. /* readData */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
