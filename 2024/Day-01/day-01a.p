@@ -1,2 +1,27 @@
 /* AoC 2024 day 01a 
  */ 
+
+DEFINE TEMP-TABLE ttNr
+  FIELD iOne AS INTEGER
+  FIELD iTwo AS INTEGER
+  INDEX idxOne iOne
+  INDEX idxTwo iTwo.  
+
+DEFINE BUFFER bNr FOR ttNr.
+DEFINE VARIABLE iDiff AS INTEGER NO-UNDO.
+
+INPUT FROM "data.txt".
+REPEAT TRANSACTION:
+  CREATE ttNr.
+  IMPORT ttNr.
+END.
+INPUT CLOSE. 
+
+FOR EACH ttNr:
+  FIND NEXT bNr USE-INDEX idxTwo.
+  iDiff = iDiff + ABS(ttNr.iOne - bNr.iTwo).
+END.
+
+MESSAGE iDiff
+  VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+  
