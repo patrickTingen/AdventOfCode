@@ -34,7 +34,7 @@ start data.txt
 start https://adventofcode.com/%year%/day/%daynr%/input
 
 start test.txt
-start day-%1.txt
 start https://adventofcode.com/%year%/day/%daynr%
+start day-%1.txt
 
 goto :EOF
