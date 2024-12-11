@@ -80,16 +80,16 @@ This process continues for a while, but the guard eventually leaves the mapped a
 
 By predicting the guard's route, you can determine which specific positions in the lab will be in the patrol path. Including the guard's starting position, the positions visited by the guard before leaving the area are marked with an X:
 
-....#.....
-....XXXXX#
-....X...X.
-..#.X...X.
-..XXXXX#X.
-..X.X.X.X.
-.#XXXXXXX.
-.XXXXXXX#.
-#XXXXXXX..
-......#X..
+....#.....   
+....XXXXX#   
+....X...X.   
+..#.X...X.   
+..XXXXX#X.   
+..X.X.X.X.   
+.#XXXXXXX.   
+.XXXXXXX#.   
+#XXXXXXX..   
+......#X..   
 
 In this example, the guard will visit 41 distinct positions on your map.
 

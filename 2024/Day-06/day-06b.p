@@ -31,7 +31,8 @@ PROCEDURE partA:
 
   DO WHILE iPos >= 1 AND iPos <= giSize:
 
-    SUBSTRING(pcRoute,iPos,1) = "V".
+    IF SUBSTRING(pcRoute,iPos,1) <> "V" THEN 
+      SUBSTRING(pcRoute,iPos,1) = "V".
   
     iNext = (     IF cDir = "U" THEN iPos - giWidth 
              ELSE IF cDir = "R" THEN iPos + 1
@@ -53,12 +54,10 @@ PROCEDURE partB:
   DEFINE VARIABLE i      AS INTEGER NO-UNDO.
   DEFINE VARIABLE lStuck AS LOGICAL NO-UNDO.
   
-  ETIME(YES).
-
   DO i = 1 TO giSize:
   
     /* Debug */
-    IF i MOD 10 = 0 THEN DO:
+    IF i MOD 100 = 0 THEN DO:
       DISPLAY i LABEL 'Done' INT(i / 169) LABEL 'Prc' WITH SIDE-LABELS.
       PROCESS EVENTS.
     END.
@@ -86,8 +85,6 @@ PROCEDURE testRoute:
 
   DO WHILE iPos >= 1 AND iPos <= giSize:
         
-    SUBSTRING(pcMap,iPos,1) = "V".
-
     iNext = (     IF cDir = "U" THEN iPos - giWidth 
              ELSE IF cDir = "R" THEN iPos + 1
              ELSE IF cDir = "D" THEN iPos + giWidth 
@@ -118,10 +115,11 @@ PROCEDURE testRoute:
 END PROCEDURE.
 
 /* Main */
+ETIME(YES).
 RUN readMap("data.txt", OUTPUT gcMap).
 RUN partA(gcMap, OUTPUT gcRoute).
 RUN partB(gcMap, gcRoute, OUTPUT giPartB).
 
-MESSAGE giPartB VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
-
+MESSAGE giPartB "in" ETIME "ms" /* 1562 in 76622 ms */
+  VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
 
