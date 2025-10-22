@@ -1,0 +1,40 @@
+@echo off
+cls
+set year=2025
+set /a daynr=0
+set ready=no
+
+:loop
+set /a daynr=daynr+1
+SET day=00%daynr%
+SET day=%day:~-2%
+if not exist "Day-%day%" call :createFolder %day%
+if "%ready%"=="yes" goto :EOF
+if %day% gtr 12 goto :EOF
+goto :loop
+	
+:createFolder
+set ready=yes
+set Folder=Day-%1
+md %Folder%
+cd %Folder%
+
+echo /* AoC %year% day %1a > day-%1a.p
+echo  */ >> day-%1a.p
+
+echo /* AoC %year% day %1b > day-%1b.p
+echo  */ >> day-%1b.p
+
+echo. > day-%1.txt
+echo. > test.txt
+echo. > data.txt
+
+:: open browser + editor
+start data.txt
+start https://adventofcode.com/%year%/day/%daynr%/input
+
+start test.txt
+start https://adventofcode.com/%year%/day/%daynr%
+start day-%1.txt
+
+goto :EOF
