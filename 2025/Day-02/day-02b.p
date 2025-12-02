@@ -30,9 +30,6 @@ DO i = 1 TO NUM-ENTRIES(cData):
 
     DO k = 1 TO iLen:
 
-      // ID cannot be repeated and match length of tested string
-      IF (iLen MOD k) <> 0 THEN NEXT. 
-      
       // Elemininate all occurences of ID. 
       // If nothing left, we have a valid one
       IF REPLACE(cId,SUBSTRING(cId,1,k),"") = "" THEN 
