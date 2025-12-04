@@ -4,7 +4,8 @@ DEFINE TEMP-TABLE ttGrid NO-UNDO
   FIELD iCol AS INTEGER 
   FIELD iRow AS INTEGER 
   FIELD cVal AS CHARACTER
-  INDEX idxPrim iCol iRow. 
+  INDEX idxPrim iCol iRow
+  INDEX idxVal cVal iCol iRow. 
   
 DEFINE VARIABLE iNumCols AS INTEGER NO-UNDO INITIAL ?.
 DEFINE VARIABLE iNumRows AS INTEGER NO-UNDO INITIAL ?.
@@ -31,7 +32,7 @@ FUNCTION setPos RETURNS LOGICAL
 
   bGrid.cVal = pcVal.
   RETURN TRUE.
-END FUNCTION.
+END FUNCTION. // setPos
 
 
 FUNCTION pos RETURNS CHARACTER
@@ -43,7 +44,7 @@ FUNCTION pos RETURNS CHARACTER
   FIND bGrid WHERE bGrid.iCol = piCol AND bGrid.iRow = piRow NO-ERROR.
   RETURN (IF NOT AVAILABLE bGrid THEN "?" ELSE bGrid.cVal). 
   
-END FUNCTION. /* pos */
+END FUNCTION. // pos 
 
 
 FUNCTION loadGrid RETURNS LOGICAL 
@@ -100,6 +101,26 @@ FUNCTION getGrid RETURNS CHARACTER
 END FUNCTION. /* getGrid */
 
 
-loadGrid("test.txt").
+FUNCTION countAround RETURNS INTEGER
+  ( piCol AS INTEGER
+  , piRow AS INTEGER
+  , pcVal AS CHARACTER
+  ):    
+  DEFINE VARIABLE iCol   AS INTEGER NO-UNDO.
+  DEFINE VARIABLE iRow   AS INTEGER NO-UNDO.
+  DEFINE VARIABLE iCount AS INTEGER NO-UNDO.
 
-MESSAGE getGrid() VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+  DO iRow = (piRow - 1) TO (piRow + 1):
+    DO iCol = (piCol - 1) TO (piCol + 1):
+      IF iRow = piRow AND iCol = piCol THEN NEXT.
+      IF pos(iCol,iRow) = pcVal THEN iCount = iCount + 1.
+    END.
+  END.
+
+  RETURN iCount.
+
+END FUNCTION. // countAround 
+
+// loadGrid("test.txt").
+//
+// MESSAGE getGrid() VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
